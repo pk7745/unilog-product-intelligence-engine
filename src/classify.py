@@ -138,36 +138,4 @@ def classify(part_desc: str, mfr: str = "", brand: str = "", mpn: str = ""):
         if m:
             return dept, cls, fine, classpath, "HIGH", "RULE", m.group(0)
 
-    # Multi-signal deterministic manufacturer & entity rules
-    m_lower = mfr.lower()
-    b_lower = brand.lower()
-
-    if "rees cast stone" in m_lower or "mortar" in text:
-        return "Building Materials", "Building Materials", "Structural & Wall Materials", "Building Materials>Building Materials>Structural & Wall Materials", "MEDIUM", "MANUFACTURER_MAPPING", "Rees Cast Stone Company"
-    if "velux" in m_lower or "velux" in b_lower:
-        return "Building Materials", "Windows & Doors", "Windows & Doors", "Building Materials>Windows & Doors>Windows & Doors", "HIGH", "MANUFACTURER_MAPPING", "Velux Skylights"
-    if "provia" in m_lower or "provia" in b_lower or "united window" in m_lower or "united window" in b_lower:
-        return "Building Materials", "Windows & Doors", "Windows & Doors", "Building Materials>Windows & Doors>Windows & Doors", "HIGH", "MANUFACTURER_MAPPING", "ProVia / United Window"
-    if "hager hinge" in m_lower or "hager" in b_lower:
-        return "Hardware", "Door Hardware", "Door Hardware & Thresholds", "Hardware>Door Hardware>Door Hardware & Thresholds", "HIGH", "MANUFACTURER_MAPPING", "Hager Hinge"
-    if "certainteed gypsum" in m_lower:
-        return "Building Materials", "Building Materials", "Structural & Wall Materials", "Building Materials>Building Materials>Structural & Wall Materials", "HIGH", "MANUFACTURER_MAPPING", "Certainteed Gypsum"
-    if "premier metals" in m_lower:
-        return "Building Materials", "Building Materials", "Structural & Wall Materials", "Building Materials>Building Materials>Structural & Wall Materials", "HIGH", "MANUFACTURER_MAPPING", "Premier Metals"
-    if "mirka abrasives" in m_lower:
-        return "Tools & Equipment", "Power Tool Accessories", "Sanding Discs", "Tools & Equipment>Power Tool Accessories>Abrasives>Sanding Discs", "HIGH", "MANUFACTURER_MAPPING", "Mirka Abrasives Inc"
-    if "a j manufacturing" in m_lower or "ajm" in b_lower:
-        return "Building Materials", "Windows & Doors", "Windows & Doors", "Building Materials>Windows & Doors>Windows & Doors", "HIGH", "MANUFACTURER_MAPPING", "A J Manufacturing Inc"
-    if "hunter fan" in m_lower:
-        return "Lighting & Ceiling Fans", "Ceiling Fans", "Ceiling Fans", "Lighting & Ceiling Fans>Ceiling Fans>Ceiling Fans", "HIGH", "MANUFACTURER_MAPPING", "Hunter Fan Co"
-    if "satco prod" in m_lower:
-        return "Lighting & Ceiling Fans", "Light Fixtures", "Lighting Fixtures", "Lighting & Ceiling Fans>Light Fixtures>Lighting Fixtures", "HIGH", "MANUFACTURER_MAPPING", "Satco Prod Inc"
-    if "appliance dealers" in m_lower:
-        return "Appliances", "Major Appliances", "Major Appliances", "Appliances>Major Appliances>Major Appliances", "HIGH", "MANUFACTURER_MAPPING", "Appliance Dealers Cooperative"
-    if "festool" in m_lower or "festool" in b_lower:
-        return "Tools & Equipment", "Power Tools", "Cordless Power Tools", "Tools & Equipment>Power Tools>Cordless Power Tools", "HIGH", "MANUFACTURER_MAPPING", "Festool USA"
-    if "dsi westbury" in b_lower or "palmer donavin" in m_lower:
-        if any(w in text for w in ["post", "rail", "shingle", "deck", "trim"]):
-            return "Building Materials", "Decking & Railing", "Post Sleeves & Accessories", "Building Materials>Decking & Railing>Post Sleeves & Accessories", "MEDIUM", "MANUFACTURER_MAPPING", "DSI Westbury / Palmer Donavin"
-
     return "", "", "", "", "UNRESOLVED", "", ""
