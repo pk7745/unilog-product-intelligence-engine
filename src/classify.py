@@ -21,21 +21,21 @@ RULES = [
      "Tools & Equipment>Power Tool Accessories>Abrasives>Sanding Belts"),
     (r"\bsanding sponge\b", "Tools & Equipment", "Power Tool Accessories", "Sanding Sponges",
      "Tools & Equipment>Power Tool Accessories>Abrasives>Sanding Sponges"),
-    (r"\b(stikit|hookit|abranet|hiolit|abrasive disc|sanding disc|disc/box|micro mesh|sanding paper|sand paper|sanding sheet|abrasive roll|abrasive sheet|polishing pad|buffing wheel)\b", "Tools & Equipment", "Power Tool Accessories", "Sanding Discs",
+    (r"\b(stikit|hookit|abranet|hiolit|abrasive disc|sanding disc|disc/box|micro mesh|sanding paper|sand paper|sanding sheet|abrasive roll|abrasive sheet|polishing pad|buffing wheel|abrasive set|gr pro)\b", "Tools & Equipment", "Power Tool Accessories", "Sanding Discs",
      "Tools & Equipment>Power Tool Accessories>Abrasives>Sanding Discs"),
     (r"\bgrinding wheel\b", "Tools & Equipment", "Power Tool Accessories", "Grinding Wheels",
      "Tools & Equipment>Power Tool Accessories>Abrasives>Grinding Wheels"),
 
     # --- TOOLS & EQUIPMENT > CUTTING & DRILLING ---
-    (r"\b(saw blade|sawzall blade|recip blade|reciprocating blade|jig blade|jigsaw blade|circ blade|circular saw blade|diamond blade|carbide blade|planer blade|jointer blade)\b", "Tools & Equipment", "Power Tool Accessories", "Saw Blades",
+    (r"\b(saw blade|sawzall blade|recip blade|reciprocating blade|jig blade|jigsaw blade|circ blade|circular saw blade|diamond blade|carbide blade|planer blade|jointer blade|tile blade|replacement blade|planer knives)\b", "Tools & Equipment", "Power Tool Accessories", "Saw Blades",
      "Tools & Equipment>Power Tool Accessories>Cutting Tools>Saw Blades"),
-    (r"\b(router bit|drill bit|driver bit|bit set|torx|phillips|hex bit|drive bit|insert bit|step drill|countersink|bit assort|nutsetter|socket adapter|torsion bit)\b", "Tools & Equipment", "Power Tool Accessories", "Bits",
+    (r"\b(router bit|drill bit|driver bit|bit set|torx|phillips|hex bit|drive bit|insert bit|step drill|countersink|bit assort|nutsetter|socket adapter|torsion bit|dado pro set|hole dozer)\b", "Tools & Equipment", "Power Tool Accessories", "Bits",
      "Tools & Equipment>Power Tool Accessories>Cutting Tools>Bits"),
 
     # --- TOOLS & EQUIPMENT > HAND TOOLS ---
     (r"\b(file bstd|mill file|half round|flat file|taper file|rasp|files & rasps|file)\b", "Tools & Equipment", "Hand Tools", "Files & Rasps",
      "Tools & Equipment>Hand Tools>Files & Rasps"),
-    (r"\b(wrench|pliers|hammer|socket|ratchet|utility knife|clamp|tape measure|hand tool|level|kneeling pad|bottle opener|inflator gauge|tire pressure)\b", "Tools & Equipment", "Hand Tools", "Hand Tools",
+    (r"\b(wrench|pliers|hammer|socket|ratchet|utility knife|clamp|tape measure|hand tool|level|kneeling pad|bottle opener|inflator gauge|tire pressure|chalk & reel|organizer)\b", "Tools & Equipment", "Hand Tools", "Hand Tools",
      "Tools & Equipment>Hand Tools>Hand Tools"),
 
     # --- TOOLS & EQUIPMENT > SAFETY & WORKWEAR ---
@@ -47,15 +47,15 @@ RULES = [
      "Tools & Equipment>Safety & Workwear>Safety Glasses & Eyewear"),
 
     # --- TOOLS & EQUIPMENT > POWER TOOLS & ACCESSORIES ---
-    (r"\b(battery|batteries|battery pack|lithium-ion battery|m18 battery|20v battery|12v battery|charger|rapid charger|fast charger|power supply|jumpstart)\b", "Tools & Equipment", "Power Tools", "Batteries & Chargers",
+    (r"\b(battery|batteries|battery pack|lithium-ion battery|m18 battery|20v battery|12v battery|charger|rapid charger|fast charger|power supply|jumpstart|starter kit|flexvolt)\b", "Tools & Equipment", "Power Tools", "Batteries & Chargers",
      "Tools & Equipment>Power Tools>Batteries & Chargers"),
-    (r"\b(plate only|insert|stand support|battery mounts)\b", "Tools & Equipment", "Power Tool Accessories", "Power Tool Accessories",
+    (r"\b(plate only|insert|stand support|battery mounts|xtender fence|t-glide fence|fence|table assembly|framing magazine|paper bag)\b", "Tools & Equipment", "Power Tool Accessories", "Power Tool Accessories",
      "Tools & Equipment>Power Tool Accessories>Power Tool Accessories"),
-    (r"\b(bandsaw|drill press|drilling system|table saw|oscillatingedge|spindle sander)\b", "Tools & Equipment", "Power Tools", "Benchtop & Stationary Power Tools",
+    (r"\b(bandsaw|drill press|drilling system|table saw|oscillatingedge|spindle sander|planing machine|shaper|stock feeder|jointer|benchtop planer|portable planer|miter sled)\b", "Tools & Equipment", "Power Tools", "Benchtop & Stationary Power Tools",
      "Tools & Equipment>Power Tools>Benchtop & Stationary Power Tools"),
     (r"\b(nailer|stapler|autofeed|screwgun)\b", "Tools & Equipment", "Power Tools", "Power Fastening Tools",
      "Tools & Equipment>Power Tools>Power Fastening Tools"),
-    (r"\b(drill|drill driver|impact|impact driver|impact wrench|angle impact|vacuum|blower|precision blower|trimmer|hedge trimmer|string trimmer|bare tool|tool[- ]only|bare|circ|circular saw|recip saw|reciprocating saw|jig saw|jigsaw|track saw|miter saw|grinder|angle grinder|die grinder|sander|orbit sander|polisher)\b", "Tools & Equipment", "Power Tools", "Cordless Power Tools",
+    (r"\b(drill|drill driver|impact|impact driver|impact wrench|angle impact|vacuum|blower|precision blower|trimmer|hedge trimmer|string trimmer|bare tool|tool[- ]only|bare|circ|circular saw|recip saw|reciprocating saw|jig saw|jigsaw|track saw|miter saw|grinder|angle grinder|die grinder|sander|orbit sander|polisher|hydraulic driver|surge kit|plunge router|rotary tool|dust extractor|jobsite speaker|speaker|2pc kit|rachet|open head rachet)\b", "Tools & Equipment", "Power Tools", "Cordless Power Tools",
      "Tools & Equipment>Power Tools>Cordless Power Tools"),
     (r"\b(rotary hammer|bench grinder|corded drill|corded sander)\b", "Tools & Equipment", "Power Tools", "Corded Power Tools",
      "Tools & Equipment>Power Tools>Corded Power Tools"),
@@ -87,11 +87,11 @@ RULES = [
      "Lighting & Ceiling Fans>Wall Lights>Wall Sconces & Lanterns"),
     (r"\b(ceiling fan|fan w/light|outdoor fan)\b", "Lighting & Ceiling Fans", "Ceiling Fans", "Ceiling Fans",
      "Lighting & Ceiling Fans>Ceiling Fans>Ceiling Fans"),
-    (r"\b(flush mount|semi flush|flushmount|canister light|recessed light|track light|cove light)\b", "Lighting & Ceiling Fans", "Ceiling Lights", "Flush Mount & Recessed Lights",
+    (r"\b(flush mount|semi flush|flushmount|canister light|recessed light|track light|cove light|highbay light|motion lt|flat panel|down lt|downlight|shop light|wrap lt|wrap light)\b", "Lighting & Ceiling Fans", "Ceiling Lights", "Flush Mount & Recessed Lights",
      "Lighting & Ceiling Fans>Ceiling Lights>Flush Mount & Recessed Lights"),
-    (r"\b(led bulb|incandescent|halogen|par30|par38|br30|mr16|candelabra|a19|light bulb|bulb)\b", "Lighting & Ceiling Fans", "Light Bulbs", "Light Bulbs",
+    (r"\b(led bulb|incandescent|halogen|par30|par38|br30|mr16|candelabra|a19|light bulb|bulb|incan)\b", "Lighting & Ceiling Fans", "Light Bulbs", "Light Bulbs",
      "Lighting & Ceiling Fans>Light Bulbs>Light Bulbs"),
-    (r"\b(kichler|lighting fixture|light fixture|downrod|landscape light)\b", "Lighting & Ceiling Fans", "Light Fixtures", "Lighting Fixtures",
+    (r"\b(kichler|lighting fixture|light fixture|downrod|landscape light|led lt|strip light|ceiling lt|ceiling light)\b", "Lighting & Ceiling Fans", "Light Fixtures", "Lighting Fixtures",
      "Lighting & Ceiling Fans>Light Fixtures>Lighting Fixtures"),
 
     # --- MAJOR APPLIANCES ---
@@ -123,7 +123,7 @@ RULES = [
     # --- ELECTRICAL & PLUMBING ---
     (r"\b(elect tape|electrical tape|vinyl tape|sealing tape|emseal tape|tape)\b", "Electrical", "Electrical Accessories", "Tapes & Adhesives",
      "Electrical>Electrical Accessories>Tapes & Adhesives"),
-    (r"\b(outlet|receptacle|switch|wall plate|junction box|switch box|outlet box|wire nut|cable tie|box cover|oct box|square box|2g box|1g box|decor plate|dimmer|lutron|hanger|box w/hanger|box w/bracket)\b", "Electrical", "Wiring & Boxes", "Electrical Wiring & Boxes",
+    (r"\b(outlet|receptacle|switch|wall plate|junction box|switch box|outlet box|wire nut|cable tie|box cover|oct box|square box|2g box|1g box|decor plate|dimmer|lutron|hanger|box w/hanger|box w/bracket|timer|indoor timer|outdoor timer)\b", "Electrical", "Wiring & Boxes", "Electrical Wiring & Boxes",
      "Electrical>Wiring & Boxes>Electrical Wiring & Boxes"),
     (r"\b(faucet|shower head|sink|toilet|pipe|fitting|valve)\b", "Plumbing", "Plumbing Fixtures", "Plumbing Fixtures & Fittings",
      "Plumbing>Plumbing Fixtures>Plumbing Fixtures & Fittings"),
@@ -158,6 +158,14 @@ def classify(part_desc: str, mfr: str = "", brand: str = "", mpn: str = ""):
         return "Tools & Equipment", "Power Tool Accessories", "Sanding Discs", "Tools & Equipment>Power Tool Accessories>Abrasives>Sanding Discs", "HIGH", "MANUFACTURER_MAPPING", "Mirka Abrasives Inc"
     if "a j manufacturing" in m_lower or "ajm" in b_lower:
         return "Building Materials", "Windows & Doors", "Windows & Doors", "Building Materials>Windows & Doors>Windows & Doors", "HIGH", "MANUFACTURER_MAPPING", "A J Manufacturing Inc"
+    if "hunter fan" in m_lower:
+        return "Lighting & Ceiling Fans", "Ceiling Fans", "Ceiling Fans", "Lighting & Ceiling Fans>Ceiling Fans>Ceiling Fans", "HIGH", "MANUFACTURER_MAPPING", "Hunter Fan Co"
+    if "satco prod" in m_lower:
+        return "Lighting & Ceiling Fans", "Light Fixtures", "Lighting Fixtures", "Lighting & Ceiling Fans>Light Fixtures>Lighting Fixtures", "HIGH", "MANUFACTURER_MAPPING", "Satco Prod Inc"
+    if "appliance dealers" in m_lower:
+        return "Appliances", "Major Appliances", "Major Appliances", "Appliances>Major Appliances>Major Appliances", "HIGH", "MANUFACTURER_MAPPING", "Appliance Dealers Cooperative"
+    if "festool" in m_lower or "festool" in b_lower:
+        return "Tools & Equipment", "Power Tools", "Cordless Power Tools", "Tools & Equipment>Power Tools>Cordless Power Tools", "HIGH", "MANUFACTURER_MAPPING", "Festool USA"
     if "dsi westbury" in b_lower or "palmer donavin" in m_lower:
         if any(w in text for w in ["post", "rail", "shingle", "deck", "trim"]):
             return "Building Materials", "Decking & Railing", "Post Sleeves & Accessories", "Building Materials>Decking & Railing>Post Sleeves & Accessories", "MEDIUM", "MANUFACTURER_MAPPING", "DSI Westbury / Palmer Donavin"
