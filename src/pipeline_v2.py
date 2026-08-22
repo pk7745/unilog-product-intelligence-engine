@@ -59,7 +59,12 @@ def build_record(row: dict) -> ProductRecord:
     record.review_reasons.extend(ent["notes"])
 
     # --- Taxonomy (Phase 8 stage 1: rule-based) ---
-    dept, cls, fine, classpath, conf_band, method, tax_evidence = classify(desc)
+    dept, cls, fine, classpath, conf_band, method, tax_evidence = classify(
+        part_desc=desc,
+        mfr=ent["manufacturer_name"],
+        brand=ent["brand_name"],
+        mpn=mpn,
+    )
     record.taxonomy = Taxonomy(
         dept=dept, cls=cls, fine=fine, classpath=classpath,
         confidence_band=conf_band, method=method, evidence=tax_evidence,

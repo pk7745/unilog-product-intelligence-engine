@@ -25,14 +25,14 @@
 {"mfg_part_num": "3MABR-7100145365", "label": "Grit", "value": "320", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "3MABR-7100145365", "label": "Pack Quantity", "value": "50", "uom": "pc", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "3MABR-7100145365", "label": "Series", "value": "Cubitron II", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "5B-332-080", "label": "Unmapped Dimension 1", "value": "5", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "5B-332-080", "label": "Diameter", "value": "5", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "5B-332-080", "label": "Grit", "value": "80", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "5B-332-120", "label": "Unmapped Dimension 1", "value": "5", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "5B-332-120", "label": "Diameter", "value": "5", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "5B-332-120", "label": "Grit", "value": "120", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "9A-570-240", "label": "Unmapped Dimension 1", "value": "2-3/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "9A-570-240", "label": "Unmapped Dimension 2", "value": "30", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "9A-570-320", "label": "Unmapped Dimension 1", "value": "2-3/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "9A-570-320", "label": "Unmapped Dimension 2", "value": "30", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "9A-570-240", "label": "Diameter", "value": "2-3/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "9A-570-240", "label": "Thickness", "value": "30", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "9A-570-320", "label": "Diameter", "value": "2-3/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "9A-570-320", "label": "Thickness", "value": "30", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DBD090094101F", "label": "Diameter", "value": "9", "uom": "in", "status": "VERIFIED", "method": "SECONDARY_SOURCE", "confidence": 0.75, "evidence_text": "Diameter: 9\"", "alternates": []}
 {"mfg_part_num": "DBD090094101F", "label": "Application Material", "value": "Metal", "uom": "", "status": "VERIFIED", "method": "MANUFACTURER_PAGE", "confidence": 0.95, "evidence_text": "premium cut-off discs provide premium performance ... in metal cutting applications", "alternates": []}
 {"mfg_part_num": "DBD090094101F", "label": "Thickness", "value": "3/32", "uom": "in", "status": "VERIFIED", "method": "SECONDARY_SOURCE", "confidence": 0.65, "evidence_text": "Thickness: 3/32\"", "alternates": []}
@@ -178,7 +178,7 @@
 {"mfg_part_num": "49-94-0907", "label": "Unmapped Dimension 2", "value": "1/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "49-94-0907", "label": "Unmapped Dimension 3", "value": "5/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "49-94-0907", "label": "Unmapped Dimension 4", "value": "11", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "49-94-0907", "label": "Material", "value": "Metal", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "49-94-0907", "label": "Application Material", "value": "Metal", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "49-94-0907", "label": "Series", "value": "Perform+", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "49-94-0923", "label": "Diameter", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "49-94-0923", "label": "Thickness", "value": "1/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
@@ -611,32 +611,36 @@
 {"mfg_part_num": "1513714", "label": "Thickness", "value": "1", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "1513714", "label": "Width", "value": "8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "1513714", "label": "Length", "value": "12", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73012503", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73012503", "label": "Unmapped Dimension 2", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73018131", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73018131", "label": "Unmapped Dimension 2", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73012503", "label": "Length", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73012503", "label": "Height", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018131", "label": "Length", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018131", "label": "Height", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "73018131", "label": "Pack Quantity", "value": "4", "uom": "pc", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73018091", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73018091", "label": "Unmapped Dimension 2", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73018066", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73018066", "label": "Unmapped Dimension 2", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018091", "label": "Length", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018091", "label": "Height", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018066", "label": "Length", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018066", "label": "Height", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "73018066", "label": "Pack Quantity", "value": "4", "uom": "pc", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73018076", "label": "Post Size", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "61109087", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "61109087", "label": "Unmapped Dimension 2", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73018731", "label": "Post Size", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "61109090", "label": "Post Size", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73053603", "label": "Post Size", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73053608", "label": "Post Size", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018076", "label": "Length", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018076", "label": "Height", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "61109087", "label": "Length", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "61109087", "label": "Height", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018731", "label": "Length", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73018731", "label": "Height", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "61109090", "label": "Length", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "61109090", "label": "Height", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73053603", "label": "Length", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73053603", "label": "Height", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73053608", "label": "Length", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73053608", "label": "Height", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543340896", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543340896", "label": "Unmapped Dimension 2", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543340896", "label": "Unmapped Dimension 3", "value": "37", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543340898", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543340898", "label": "Unmapped Dimension 2", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543340898", "label": "Unmapped Dimension 3", "value": "43", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73272TBK", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73272TBK", "label": "Unmapped Dimension 2", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "73272TBK", "label": "Unmapped Dimension 3", "value": "10", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73272TBK", "label": "Post Size", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "73272TBK", "label": "Height", "value": "10", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543302127", "label": "Length", "value": "6", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543302127", "label": "Tool Form", "value": "Kit", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543302147", "label": "Length", "value": "8", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
@@ -651,9 +655,8 @@
 {"mfg_part_num": "73019647", "label": "Tool Form", "value": "Kit", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543300257", "label": "Length", "value": "6", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "543300277", "label": "Length", "value": "8", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "SPB-44BPL", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "SPB-44BPL", "label": "Unmapped Dimension 2", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "SPB-44BPL", "label": "Unmapped Dimension 3", "value": "37", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "SPB-44BPL", "label": "Post Size", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "SPB-44BPL", "label": "Height", "value": "37", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "925219", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "925219", "label": "Unmapped Dimension 2", "value": "50", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "FS C01 2004S", "label": "Unmapped Dimension 1", "value": "21", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
@@ -710,7 +713,7 @@
 {"mfg_part_num": "25825", "label": "Unmapped Dimension 2", "value": "10", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "25822", "label": "Unmapped Dimension 1", "value": "12", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "25822", "label": "Unmapped Dimension 2", "value": "16", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "543650048", "label": "Unmapped Dimension 1", "value": "8", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "543650048", "label": "Length", "value": "8", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "1506969", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "1506969", "label": "Unmapped Dimension 2", "value": "8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "1514681", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
@@ -759,12 +762,12 @@
 {"mfg_part_num": "62-1876", "label": "Unmapped Dimension 1", "value": "13", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "HLSMS9129FS1E", "label": "Unmapped Dimension 1", "value": "9", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "64-110", "label": "Unmapped Dimension 1", "value": "16", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "603571", "label": "Unmapped Dimension 1", "value": "3", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "603571", "label": "Diameter", "value": "3", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "65-572R1", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "65-572R1", "label": "Unmapped Dimension 2", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "S11606", "label": "Unmapped Dimension 1", "value": "8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "S11828", "label": "Unmapped Dimension 1", "value": "8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "801274", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "801274", "label": "Diameter", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "S11860", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "S11562", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "S11646", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
@@ -782,9 +785,9 @@
 {"mfg_part_num": "SHOP/4X2/840/V1", "label": "Unmapped Dimension 1", "value": "4", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "65-1210", "label": "Unmapped Dimension 1", "value": "2", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "65-1211", "label": "Unmapped Dimension 1", "value": "4", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "141465", "label": "Unmapped Dimension 1", "value": "18", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "391227", "label": "Unmapped Dimension 1", "value": "12", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "392225", "label": "Unmapped Dimension 1", "value": "8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "141465", "label": "Diameter", "value": "18", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "391227", "label": "Diameter", "value": "12", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "392225", "label": "Diameter", "value": "8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "13093005", "label": "Material", "value": "Aluminum", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "R50003-ID", "label": "Unmapped Dimension 1", "value": "500", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "2/2/4 UD ALUM", "label": "Material", "value": "Aluminum", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
@@ -833,17 +836,16 @@
 {"mfg_part_num": "DCGG581GD1", "label": "Voltage Rating", "value": "20", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DCGG581GD1", "label": "Tool Form", "value": "Kit", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DWST41092", "label": "Unmapped Dimension 1", "value": "41", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "156436WHT", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "156436WHT", "label": "Unmapped Dimension 2", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "156436WHT", "label": "Unmapped Dimension 3", "value": "120", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "173950TBK", "label": "Unmapped Dimension 1", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "173950TBK", "label": "Unmapped Dimension 2", "value": "8", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "173950TBK", "label": "Unmapped Dimension 3", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "173951TBK", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "173951TBK", "label": "Unmapped Dimension 2", "value": "8", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "173951TBK", "label": "Unmapped Dimension 3", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "173952TBK", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "173952TBK", "label": "Unmapped Dimension 2", "value": "10", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "156436WHT", "label": "Post Size", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "156436WHT", "label": "Height", "value": "120", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "173950TBK", "label": "Post Size", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "173950TBK", "label": "Post Size", "value": "8", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "173950TBK", "label": "Height", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "173951TBK", "label": "Post Size", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "173951TBK", "label": "Post Size", "value": "8", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "173951TBK", "label": "Height", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "173952TBK", "label": "Post Size", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "173952TBK", "label": "Post Size", "value": "10", "uom": "ft", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "F200B-21L", "label": "Voltage Rating", "value": "12", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "F200B-21L", "label": "Tool Form", "value": "Kit", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "F200B-21M", "label": "Voltage Rating", "value": "12", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
@@ -887,9 +889,9 @@
 {"mfg_part_num": "VN56920", "label": "Length", "value": "10-1/2", "uom": "in", "status": "VERIFIED", "method": "HUMAN", "confidence": 1.0, "evidence_text": "Medium/Fine Blade (10-1/2\" / 267 mm)", "alternates": []}
 {"mfg_part_num": "VN56920", "label": "Manufacturer (brand)", "value": "CONFLICT", "uom": "", "status": "CONFLICT", "method": "HUMAN_DEFERRED", "confidence": 0.0, "evidence_text": "Human decision LEAVE_BLANK: Dual legal branding (Marshalltown seller vs Vaughan trademark) cannot be reconciled without manufacturer licensing documentation.", "alternates": [{"value": "Marshalltown", "source": "marshalltown.com (seller/distributor)"}, {"value": "VAUGHAN (Vaughan & Bushnell Mfg. Co.)", "source": "amazon.com listing brand field"}]}
 {"mfg_part_num": "VN56920", "label": "Classpath", "value": "CONFLICT", "uom": "", "status": "CONFLICT", "method": "HUMAN_DEFERRED", "confidence": 0.0, "evidence_text": "Human decision LEAVE_BLANK: Hand pull-saw replacement blade is out of scope for power-tool saw blade taxonomy schema.", "alternates": []}
-{"mfg_part_num": "DSA0250B", "label": "Unmapped Dimension 1", "value": "1/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DSA0375B", "label": "Unmapped Dimension 1", "value": "3/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DSA0500B", "label": "Unmapped Dimension 1", "value": "1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DSA0250B", "label": "Diameter", "value": "1/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DSA0375B", "label": "Diameter", "value": "3/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DSA0500B", "label": "Diameter", "value": "1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "42-04-9107", "label": "Unmapped Dimension 1", "value": "3/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "48-22-9491", "label": "Pack Quantity", "value": "242", "uom": "pc", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DWMT45422", "label": "Unmapped Dimension 1", "value": "1/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
@@ -946,7 +948,7 @@
 {"mfg_part_num": "3401-20", "label": "Torque", "value": "350", "uom": "in-lbs", "status": "VERIFIED", "method": "OFFICIAL_SOURCE", "confidence": 1.0, "evidence_text": "350 in-lbs torque", "alternates": []}
 {"mfg_part_num": "3401-20", "label": "Speed", "value": "1550", "uom": "RPM", "status": "VERIFIED", "method": "OFFICIAL_SOURCE", "confidence": 1.0, "evidence_text": "1,550 RPM", "alternates": []}
 {"mfg_part_num": "KPTDR050A", "label": "Voltage Rating", "value": "20", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DCD1007B", "label": "Cutting Swath", "value": "1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DCD1007B", "label": "Unmapped Dimension 1", "value": "1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DCD1007B", "label": "Voltage Rating", "value": "20", "uom": "V", "status": "VERIFIED", "method": "OFFICIAL_SOURCE", "confidence": 1.0, "evidence_text": "20V MAX* XR", "alternates": []}
 {"mfg_part_num": "DCD1007B", "label": "Tool Form", "value": "Tool Only", "uom": "", "status": "VERIFIED", "method": "OFFICIAL_SOURCE", "confidence": 1.0, "evidence_text": "Tool Only", "alternates": []}
 {"mfg_part_num": "DCD1007B", "label": "Motor Type", "value": "Brushless", "uom": "", "status": "VERIFIED", "method": "OFFICIAL_SOURCE", "confidence": 1.0, "evidence_text": "Brushless", "alternates": []}
@@ -983,37 +985,37 @@
 {"mfg_part_num": "220USB25U", "label": "Pack Quantity", "value": "25", "uom": "pc", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "XRF03Z", "label": "Voltage Rating", "value": "18", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "220USBP5U", "label": "Pack Quantity", "value": "5", "uom": "pc", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "49-66-4567", "label": "Diameter", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "49-66-4567", "label": "Cutting Swath", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "49-66-4567", "label": "Pack Quantity", "value": "6", "uom": "pc", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "IBMG90K003", "label": "Diameter", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "IBMG90K003", "label": "Pack Quantity", "value": "5", "uom": "pc", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "IBPH250P15T", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "IBPH250P15T", "label": "Pack Quantity", "value": "15", "uom": "pc", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH12B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH135B", "label": "Unmapped Dimension 1", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH21B", "label": "Unmapped Dimension 1", "value": "1", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH22B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH235B", "label": "Unmapped Dimension 1", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH26B", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH2R1B", "label": "Unmapped Dimension 1", "value": "1", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH31B", "label": "Unmapped Dimension 1", "value": "1", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH32B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DPH335B", "label": "Unmapped Dimension 1", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DSQ12B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DSQ22B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DSQ26B", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DSQ32B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT102B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT152B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT1535B", "label": "Unmapped Dimension 1", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT202B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT2035B", "label": "Unmapped Dimension 1", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT206B", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT252B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT2535B", "label": "Unmapped Dimension 1", "value": "3-1/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT256B", "label": "Unmapped Dimension 1", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT302B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DT402B", "label": "Unmapped Dimension 1", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH12B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH135B", "label": "Diameter", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH21B", "label": "Diameter", "value": "1", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH22B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH235B", "label": "Diameter", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH26B", "label": "Diameter", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH2R1B", "label": "Diameter", "value": "1", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH31B", "label": "Diameter", "value": "1", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH32B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DPH335B", "label": "Diameter", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DSQ12B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DSQ22B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DSQ26B", "label": "Diameter", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DSQ32B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT102B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT152B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT1535B", "label": "Diameter", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT202B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT2035B", "label": "Diameter", "value": "3-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT206B", "label": "Diameter", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT252B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT2535B", "label": "Diameter", "value": "3-1/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT256B", "label": "Diameter", "value": "6", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT302B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DT402B", "label": "Diameter", "value": "2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "XTS02Z", "label": "Fastener Length", "value": "1/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "XTS02Z", "label": "Voltage Rating", "value": "18", "uom": "V", "status": "VERIFIED", "method": "OFFICIAL_SOURCE", "confidence": 1.0, "evidence_text": "18V LXT", "alternates": []}
 {"mfg_part_num": "XTS02Z", "label": "Gauge", "value": "18", "uom": "GA", "status": "VERIFIED", "method": "OFFICIAL_SOURCE", "confidence": 1.0, "evidence_text": "18 Ga.", "alternates": []}
@@ -1032,19 +1034,19 @@
 {"mfg_part_num": "3450-20", "label": "Motor Type", "value": "Brushless", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "3450-20", "label": "Tool Form", "value": "Tool Only", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "KPTDV025A", "label": "Voltage Rating", "value": "20", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "3048-20", "label": "Cutting Swath", "value": "12-1/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "3048-20", "label": "Unmapped Dimension 1", "value": "12-1/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "3048-20", "label": "Voltage Rating", "value": "12", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "3049-20", "label": "Cutting Swath", "value": "12-3/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "3049-20", "label": "Unmapped Dimension 1", "value": "12-3/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "3049-20", "label": "Voltage Rating", "value": "12", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "2563-20", "label": "Cutting Swath", "value": "1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "2563-20", "label": "Unmapped Dimension 1", "value": "1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "2563-20", "label": "Voltage Rating", "value": "12", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DCF961B", "label": "Cutting Swath", "value": "1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DCF961B", "label": "Voltage Rating", "value": "20", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DCF961B", "label": "Tool Form", "value": "Tool Only", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DCF964B", "label": "Cutting Swath", "value": "3/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DCF964B", "label": "Unmapped Dimension 1", "value": "3/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DCF964B", "label": "Voltage Rating", "value": "20", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DCF964B", "label": "Tool Form", "value": "Tool Only", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "2563P-20", "label": "Cutting Swath", "value": "12-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "2563P-20", "label": "Unmapped Dimension 1", "value": "12-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "2563P-20", "label": "Voltage Rating", "value": "12", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DCF921P2", "label": "Voltage Rating", "value": "20", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "XLT03Z", "label": "Cutting Swath", "value": "3/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
@@ -1056,7 +1058,7 @@
 {"mfg_part_num": "DCF510B", "label": "Voltage Rating", "value": "20", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "3052-20", "label": "Unmapped Dimension 1", "value": "1/4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "3052-20", "label": "Voltage Rating", "value": "12", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "3054-20", "label": "Cutting Swath", "value": "12-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "3054-20", "label": "Unmapped Dimension 1", "value": "12-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "3054-20", "label": "Voltage Rating", "value": "12", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "3054-20", "label": "Tool Form", "value": "Tool Only", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DCF513EB", "label": "Unmapped Dimension 1", "value": "3/8", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
@@ -1085,10 +1087,10 @@
 {"mfg_part_num": "2837-20", "label": "Tool Form", "value": "Tool Only", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "KPTRS500A", "label": "Cutting Swath", "value": "5", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "KPTRS500A", "label": "Voltage Rating", "value": "20", "uom": "V", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "24-35M-320", "label": "Unmapped Dimension 1", "value": "3.2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "24-35M-320", "label": "Unmapped Dimension 2", "value": "5.2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "9A-129-120", "label": "Unmapped Dimension 1", "value": "3", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "9A-129-120", "label": "Unmapped Dimension 2", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "24-35M-320", "label": "Diameter", "value": "3.2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "24-35M-320", "label": "Thickness", "value": "5.2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "9A-129-120", "label": "Diameter", "value": "3", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "9A-129-120", "label": "Thickness", "value": "4", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "578800", "label": "Unmapped Dimension 1", "value": "80", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "578800", "label": "Unmapped Dimension 2", "value": "133", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "578801", "label": "Unmapped Dimension 1", "value": "80", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
@@ -1127,7 +1129,7 @@
 {"mfg_part_num": "D1216LF", "label": "Diameter", "value": "12", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "D1216LF", "label": "Kerf", "value": "16", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "D1216LF", "label": "Application Material", "value": "Wood", "uom": "", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
-{"mfg_part_num": "DWA47421", "label": "Unmapped Dimension 1", "value": "14", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
+{"mfg_part_num": "DWA47421", "label": "Diameter", "value": "14", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.55, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "DWA4769", "label": "Unmapped Dimension 1", "value": "10", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "49-93-9204", "label": "Unmapped Dimension 1", "value": "4-1/2", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}
 {"mfg_part_num": "49-93-9207", "label": "Unmapped Dimension 1", "value": "7", "uom": "in", "status": "UNVERIFIED", "method": "REGEX", "confidence": 0.25, "evidence_text": "", "alternates": []}

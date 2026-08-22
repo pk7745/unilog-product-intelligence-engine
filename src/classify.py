@@ -12,50 +12,45 @@ import re
 
 RULES = [
     # (regex, Dept, Class, Fine, Classpath)
+    # --- TOOLS & EQUIPMENT > POWER TOOL ACCESSORIES > ABRASIVES ---
     (r"\bcut and grind\b", "Tools & Equipment", "Power Tool Accessories", "Cut & Grind Discs",
      "Tools & Equipment>Power Tool Accessories>Abrasives>Cut & Grind Discs"),
-    (r"\bcut[- ]?off disc\b", "Tools & Equipment", "Power Tool Accessories", "Cut-Off Discs",
+    (r"\b(cut[- ]?off disc|cut[- ]?off wheel|metal cut disc|perform\+dual metal cut n grind)\b", "Tools & Equipment", "Power Tool Accessories", "Cut-Off Discs",
      "Tools & Equipment>Power Tool Accessories>Abrasives>Cut-Off Discs"),
     (r"\bsanding belt\b", "Tools & Equipment", "Power Tool Accessories", "Sanding Belts",
      "Tools & Equipment>Power Tool Accessories>Abrasives>Sanding Belts"),
     (r"\bsanding sponge\b", "Tools & Equipment", "Power Tool Accessories", "Sanding Sponges",
      "Tools & Equipment>Power Tool Accessories>Abrasives>Sanding Sponges"),
-    (r"\b(stikit|disc/box|abrasive disc|sanding disc)\b", "Tools & Equipment", "Power Tool Accessories", "Sanding Discs",
+    (r"\b(stikit|hookit|abranet|hiolit|abrasive disc|sanding disc|disc/box|micro mesh|sanding paper|sand paper|sanding sheet|abrasive roll|abrasive sheet|polishing pad|buffing wheel)\b", "Tools & Equipment", "Power Tool Accessories", "Sanding Discs",
      "Tools & Equipment>Power Tool Accessories>Abrasives>Sanding Discs"),
     (r"\bgrinding wheel\b", "Tools & Equipment", "Power Tool Accessories", "Grinding Wheels",
      "Tools & Equipment>Power Tool Accessories>Abrasives>Grinding Wheels"),
-    (r"\bsaw blade\b", "Tools & Equipment", "Power Tool Accessories", "Saw Blades",
+
+    # --- TOOLS & EQUIPMENT > CUTTING & DRILLING ---
+    (r"\b(saw blade|sawzall blade|recip blade|reciprocating blade|jig blade|jigsaw blade|circ blade|circular saw blade|diamond blade|carbide blade|planer blade|jointer blade)\b", "Tools & Equipment", "Power Tool Accessories", "Saw Blades",
      "Tools & Equipment>Power Tool Accessories>Cutting Tools>Saw Blades"),
-    (r"\b(router bit|drill bit|driver bit|bit set)\b", "Tools & Equipment", "Power Tool Accessories", "Bits",
+    (r"\b(router bit|drill bit|driver bit|bit set|torx|phillips|hex bit|drive bit|insert bit|step drill|countersink|bit assort|nutsetter|socket adapter|torsion bit)\b", "Tools & Equipment", "Power Tool Accessories", "Bits",
      "Tools & Equipment>Power Tool Accessories>Cutting Tools>Bits"),
-    (r"\b(file|rasp)\b", "Tools & Equipment", "Hand Tools", "Files & Rasps",
+
+    # --- TOOLS & EQUIPMENT > HAND TOOLS ---
+    (r"\b(file bstd|mill file|half round|flat file|taper file|rasp|files & rasps|file)\b", "Tools & Equipment", "Hand Tools", "Files & Rasps",
      "Tools & Equipment>Hand Tools>Files & Rasps"),
-    # Decking & Railing Categories by Shape
-    (r"\b(fascia|fascia board|rim board)\b", "Building Materials", "Decking & Railing", "Fascia Boards",
-     "Building Materials>Decking & Railing>Fascia Boards"),
-    (r"\b(railing kit|rail kit|railing|rail pack|horizontal rail|stair rail|classic horiz|alum baluster)\b", "Building Materials", "Decking & Railing", "Railing Kits",
-     "Building Materials>Decking & Railing>Railing Kits"),
-    # Building Materials Categories
-    (r"\b(post sleeve|post cap|post skirt|solar cap|post collar|post base|decorative collar)\b", "Building Materials", "Decking & Railing", "Post Sleeves & Accessories",
-     "Building Materials>Decking & Railing>Post Sleeves & Accessories"),
-    (r"\b(deck board|decking board|decking|grooved board|square edge board|composite board|pvc board|lineage|transcend|select|enhance|armourguard|landmark|vintage collection|harvest collection|prime collection)\b", "Building Materials", "Decking & Railing", "Deck Boards",
-     "Building Materials>Decking & Railing>Deck Boards"),
-    (r"\b(gravity latch|gate latch|gate hinge|gate hardware)\b", "Building Materials", "Decking & Railing", "Gate Hardware",
-     "Building Materials>Decking & Railing>Gate Hardware"),
-    # Fasteners & Hardware Categories by Shape
-    (r"\b(finish nail|brad nail|framing nail|roofing nail|coil nail|masonry nail)\b", "Hardware", "Fasteners", "Nails & Pins",
-     "Hardware>Fasteners>Nails & Pins"),
-    (r"\b(staple|staples|narrow crown staple|crown staple)\b", "Hardware", "Fasteners", "Staples",
-     "Hardware>Fasteners>Staples"),
-    # Power Tools & Outdoor Equipment Categories by Shape
-    (r"\b(battery|batteries|battery pack|lithium-ion battery|m18 battery|20v battery|12v battery|charger|rapid charger|fast charger|power supply)\b", "Tools & Equipment", "Power Tools", "Batteries & Chargers",
+    (r"\b(wrench|pliers|hammer|socket|ratchet|utility knife|clamp|tape measure|hand tool|level|kneeling pad|bottle opener|inflator gauge|tire pressure)\b", "Tools & Equipment", "Hand Tools", "Hand Tools",
+     "Tools & Equipment>Hand Tools>Hand Tools"),
+
+    # --- TOOLS & EQUIPMENT > SAFETY & WORKWEAR ---
+    (r"\b(heated jacket|heated vest|heated hoodie|heated coat|work jacket|parka|hoodie|workwear)\b", "Tools & Equipment", "Safety & Workwear", "Heated Gear & Apparel",
+     "Tools & Equipment>Safety & Workwear>Heated Gear & Apparel"),
+    (r"\b(glove|gloves|work gloves|leather gloves|cut resistant glove)\b", "Tools & Equipment", "Safety & Workwear", "Safety Gloves",
+     "Tools & Equipment>Safety & Workwear>Safety Gloves"),
+    (r"\b(safety glasses|eyewear|goggles|face shield|hard hat|earplugs|ear muff|respirator|knee pads|glasses)\b", "Tools & Equipment", "Safety & Workwear", "Safety Glasses & Eyewear",
+     "Tools & Equipment>Safety & Workwear>Safety Glasses & Eyewear"),
+
+    # --- TOOLS & EQUIPMENT > POWER TOOLS & ACCESSORIES ---
+    (r"\b(battery|batteries|battery pack|lithium-ion battery|m18 battery|20v battery|12v battery|charger|rapid charger|fast charger|power supply|jumpstart)\b", "Tools & Equipment", "Power Tools", "Batteries & Chargers",
      "Tools & Equipment>Power Tools>Batteries & Chargers"),
     (r"\b(plate only|insert|stand support|battery mounts)\b", "Tools & Equipment", "Power Tool Accessories", "Power Tool Accessories",
      "Tools & Equipment>Power Tool Accessories>Power Tool Accessories"),
-    (r"\b(countersink|drill bit|torsion bit|driver set|bit set|bit assort)\b", "Tools & Equipment", "Power Tool Accessories", "Bits",
-     "Tools & Equipment>Power Tool Accessories>Bits"),
-    (r"\b(blade kit|sawzall blade)\b", "Tools & Equipment", "Power Tool Accessories", "Saw Blades",
-     "Tools & Equipment>Power Tool Accessories>Saw Blades"),
     (r"\b(bandsaw|drill press|drilling system|table saw|oscillatingedge|spindle sander)\b", "Tools & Equipment", "Power Tools", "Benchtop & Stationary Power Tools",
      "Tools & Equipment>Power Tools>Benchtop & Stationary Power Tools"),
     (r"\b(nailer|stapler|autofeed|screwgun)\b", "Tools & Equipment", "Power Tools", "Power Fastening Tools",
@@ -64,14 +59,107 @@ RULES = [
      "Tools & Equipment>Power Tools>Cordless Power Tools"),
     (r"\b(rotary hammer|bench grinder|corded drill|corded sander)\b", "Tools & Equipment", "Power Tools", "Corded Power Tools",
      "Tools & Equipment>Power Tools>Corded Power Tools"),
+
+    # --- BUILDING MATERIALS > DECKING & RAILING ---
+    (r"\b(fascia|fascia board|rim board)\b", "Building Materials", "Decking & Railing", "Fascia Boards",
+     "Building Materials>Decking & Railing>Fascia Boards"),
+    (r"\b(railing kit|rail kit|railing|rail pack|horizontal rail|stair rail|classic horiz|alum baluster|baluster|top rail|bottom rail|wh gate|gate sq bal|gate rd|ada rail|ada wall mount|ada int end cap|handrail)\b", "Building Materials", "Decking & Railing", "Railing Kits",
+     "Building Materials>Decking & Railing>Railing Kits"),
+    (r"\b(post sleeve|post cap|post skirt|solar cap|post collar|post base|decorative collar|post trim|blank post|support post)\b", "Building Materials", "Decking & Railing", "Post Sleeves & Accessories",
+     "Building Materials>Decking & Railing>Post Sleeves & Accessories"),
+    (r"\b(deck board|decking board|decking|grooved board|square edge board|composite board|pvc board|lineage|transcend|select|enhance|armourguard|landmark|vintage collection|harvest collection|prime collection)\b", "Building Materials", "Decking & Railing", "Deck Boards",
+     "Building Materials>Decking & Railing>Deck Boards"),
+    (r"\b(gravity latch|gate latch|gate hinge|gate hardware)\b", "Building Materials", "Decking & Railing", "Gate Hardware",
+     "Building Materials>Decking & Railing>Gate Hardware"),
+
+    # --- BUILDING MATERIALS > WINDOWS, DOORS & BUILDING SUPPLIES ---
+    (r"\b(patio dr|gliding patio|slider|skylt|skylight|access door|window|door|bsmt ecoliteplus|hopper)\b", "Building Materials", "Windows & Doors", "Windows & Doors",
+     "Building Materials>Windows & Doors>Windows & Doors"),
+    (r"\b(drywall|easi-lite|firelite|mortar|type n|rainscreen|sub floor|osb|doug fir|lumber|premier rib|metal panel|siding|sheathing|hardie sdg|hardiepanel|hardieplank|smart lap|smart pan|soffit|shingle|eaveguard|ice guard|roofing|trudef|weathr lk|fine fissured|ceiling tile)\b", "Building Materials", "Building Materials", "Structural & Wall Materials",
+     "Building Materials>Building Materials>Structural & Wall Materials"),
+
+    # --- LIGHTING & CEILING FANS ---
+    (r"\b(chandelier|chandeliers)\b", "Lighting & Ceiling Fans", "Ceiling Lights", "Chandeliers",
+     "Lighting & Ceiling Fans>Ceiling Lights>Chandeliers"),
+    (r"\b(pendant|pendants|mini pendant)\b", "Lighting & Ceiling Fans", "Ceiling Lights", "Pendant Lights",
+     "Lighting & Ceiling Fans>Ceiling Lights>Pendant Lights"),
+    (r"\b(sconce|wall sconce|vanity light|wall light|lantern|outdoor lantern|post light)\b", "Lighting & Ceiling Fans", "Wall Lights", "Wall Sconces & Lanterns",
+     "Lighting & Ceiling Fans>Wall Lights>Wall Sconces & Lanterns"),
+    (r"\b(ceiling fan|fan w/light|outdoor fan)\b", "Lighting & Ceiling Fans", "Ceiling Fans", "Ceiling Fans",
+     "Lighting & Ceiling Fans>Ceiling Fans>Ceiling Fans"),
+    (r"\b(flush mount|semi flush|flushmount|canister light|recessed light|track light|cove light)\b", "Lighting & Ceiling Fans", "Ceiling Lights", "Flush Mount & Recessed Lights",
+     "Lighting & Ceiling Fans>Ceiling Lights>Flush Mount & Recessed Lights"),
+    (r"\b(led bulb|incandescent|halogen|par30|par38|br30|mr16|candelabra|a19|light bulb|bulb)\b", "Lighting & Ceiling Fans", "Light Bulbs", "Light Bulbs",
+     "Lighting & Ceiling Fans>Light Bulbs>Light Bulbs"),
+    (r"\b(kichler|lighting fixture|light fixture|downrod|landscape light)\b", "Lighting & Ceiling Fans", "Light Fixtures", "Lighting Fixtures",
+     "Lighting & Ceiling Fans>Light Fixtures>Lighting Fixtures"),
+
+    # --- MAJOR APPLIANCES ---
+    (r"\b(dishwasher|dish washer)\b", "Appliances", "Major Appliances", "Dishwashers",
+     "Appliances>Major Appliances>Dishwashers"),
+    (r"\b(dryer|clothes dryer|elect dryer|gas dryer|sq elect dryer|sq gas dryer)\b", "Appliances", "Major Appliances", "Clothes Dryers",
+     "Appliances>Major Appliances>Clothes Dryers"),
+    (r"\b(washer|washing machine|speed queen washer)\b", "Appliances", "Major Appliances", "Washing Machines",
+     "Appliances>Major Appliances>Washing Machines"),
+    (r"\b(laundry center|washer dryer combo)\b", "Appliances", "Major Appliances", "Laundry Centers",
+     "Appliances>Major Appliances>Laundry Centers"),
+    (r"\b(refrigerator|fridge|freezer|ice maker|beverage center)\b", "Appliances", "Major Appliances", "Refrigerators",
+     "Appliances>Major Appliances>Refrigerators"),
+    (r"\b(range|cooktop|wall oven|stove|microwave|range hood|vent hood)\b", "Appliances", "Major Appliances", "Cooking Appliances",
+     "Appliances>Major Appliances>Cooking Appliances"),
+    (r"\b(heater kit|appliance part|dryer cord|water filter)\b", "Appliances", "Appliance Parts", "Appliance Parts & Accessories",
+     "Appliances>Appliance Parts>Appliance Parts & Accessories"),
+
+    # --- HARDWARE > FASTENERS & HARDWARE ---
+    (r"\b(finish nail|brad nail|framing nail|roofing nail|coil nail|masonry nail|pin)\b", "Hardware", "Fasteners", "Nails & Pins",
+     "Hardware>Fasteners>Nails & Pins"),
+    (r"\b(staple|staples|narrow crown staple|crown staple)\b", "Hardware", "Fasteners", "Staples",
+     "Hardware>Fasteners>Staples"),
+    (r"\b(screw|wood screw|deck screw|drywall screw|machine screw|self tapping|bolt|hex bolt|lag bolt|anchor|toggle bolt|nut|hex nut|washer|flat washer)\b", "Hardware", "Fasteners", "Screws & Fasteners",
+     "Hardware>Fasteners>Screws & Fasteners"),
+    (r"\b(threshold|alum threshold|hinge|door trim|latch)\b", "Hardware", "Door Hardware", "Door Hardware & Thresholds",
+     "Hardware>Door Hardware>Door Hardware & Thresholds"),
+
+    # --- ELECTRICAL & PLUMBING ---
+    (r"\b(elect tape|electrical tape|vinyl tape|sealing tape|emseal tape|tape)\b", "Electrical", "Electrical Accessories", "Tapes & Adhesives",
+     "Electrical>Electrical Accessories>Tapes & Adhesives"),
+    (r"\b(outlet|receptacle|switch|wall plate|junction box|switch box|outlet box|wire nut|cable tie|box cover|oct box|square box|2g box|1g box|decor plate|dimmer|lutron|hanger|box w/hanger|box w/bracket)\b", "Electrical", "Wiring & Boxes", "Electrical Wiring & Boxes",
+     "Electrical>Wiring & Boxes>Electrical Wiring & Boxes"),
+    (r"\b(faucet|shower head|sink|toilet|pipe|fitting|valve)\b", "Plumbing", "Plumbing Fixtures", "Plumbing Fixtures & Fittings",
+     "Plumbing>Plumbing Fixtures>Plumbing Fixtures & Fittings"),
 ]
 
 
-def classify(part_desc: str):
+def classify(part_desc: str, mfr: str = "", brand: str = "", mpn: str = ""):
     """Returns (dept, cls, fine, classpath, confidence_band, method, evidence)."""
-    d = part_desc.lower()
+    text = f"{part_desc} {mfr} {brand} {mpn}".lower()
     for pattern, dept, cls, fine, classpath in RULES:
-        m = re.search(pattern, d)
+        m = re.search(pattern, text)
         if m:
             return dept, cls, fine, classpath, "HIGH", "RULE", m.group(0)
+
+    # Multi-signal deterministic manufacturer & entity rules
+    m_lower = mfr.lower()
+    b_lower = brand.lower()
+
+    if "rees cast stone" in m_lower or "mortar" in text:
+        return "Building Materials", "Building Materials", "Structural & Wall Materials", "Building Materials>Building Materials>Structural & Wall Materials", "MEDIUM", "MANUFACTURER_MAPPING", "Rees Cast Stone Company"
+    if "velux" in m_lower or "velux" in b_lower:
+        return "Building Materials", "Windows & Doors", "Windows & Doors", "Building Materials>Windows & Doors>Windows & Doors", "HIGH", "MANUFACTURER_MAPPING", "Velux Skylights"
+    if "provia" in m_lower or "provia" in b_lower or "united window" in m_lower or "united window" in b_lower:
+        return "Building Materials", "Windows & Doors", "Windows & Doors", "Building Materials>Windows & Doors>Windows & Doors", "HIGH", "MANUFACTURER_MAPPING", "ProVia / United Window"
+    if "hager hinge" in m_lower or "hager" in b_lower:
+        return "Hardware", "Door Hardware", "Door Hardware & Thresholds", "Hardware>Door Hardware>Door Hardware & Thresholds", "HIGH", "MANUFACTURER_MAPPING", "Hager Hinge"
+    if "certainteed gypsum" in m_lower:
+        return "Building Materials", "Building Materials", "Structural & Wall Materials", "Building Materials>Building Materials>Structural & Wall Materials", "HIGH", "MANUFACTURER_MAPPING", "Certainteed Gypsum"
+    if "premier metals" in m_lower:
+        return "Building Materials", "Building Materials", "Structural & Wall Materials", "Building Materials>Building Materials>Structural & Wall Materials", "HIGH", "MANUFACTURER_MAPPING", "Premier Metals"
+    if "mirka abrasives" in m_lower:
+        return "Tools & Equipment", "Power Tool Accessories", "Sanding Discs", "Tools & Equipment>Power Tool Accessories>Abrasives>Sanding Discs", "HIGH", "MANUFACTURER_MAPPING", "Mirka Abrasives Inc"
+    if "a j manufacturing" in m_lower or "ajm" in b_lower:
+        return "Building Materials", "Windows & Doors", "Windows & Doors", "Building Materials>Windows & Doors>Windows & Doors", "HIGH", "MANUFACTURER_MAPPING", "A J Manufacturing Inc"
+    if "dsi westbury" in b_lower or "palmer donavin" in m_lower:
+        if any(w in text for w in ["post", "rail", "shingle", "deck", "trim"]):
+            return "Building Materials", "Decking & Railing", "Post Sleeves & Accessories", "Building Materials>Decking & Railing>Post Sleeves & Accessories", "MEDIUM", "MANUFACTURER_MAPPING", "DSI Westbury / Palmer Donavin"
+
     return "", "", "", "", "UNRESOLVED", "", ""
