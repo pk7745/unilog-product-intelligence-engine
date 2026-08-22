@@ -1,0 +1,500 @@
+Row_ID,MPN,Field,Expected_Rule,Predicted_Value,Error_Type,Details
+42,49-94-0907,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Perform+, Product, 49-94-0907",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+59,1700-1PK-BB40,MOBILE_DESC,60-80 chars,"3 M Co, Product, 1700-1PK-BB40, Unmapped Dimension 1 3/4 in",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+61,KDFM404KPS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, KDFM404KPS",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+62,PDSH4816AF,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PDSH4816AF",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+63,PDT715SYVFS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PDT715SYVFS",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+64,LDPH5554D,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, LDPH5554D",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+65,WDTS7024RZ,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, WDTS7024RZ",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+66,PDD415PYYFS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PDD415PYYFS",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+67,KDTS424SBE,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, KDTS424SBE",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+68,KDTS324SPS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, KDTS324SPS",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+69,KDPS624SJP,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, KDPS624SJP",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+70,KDTS624SBE,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, KDTS624SBE",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+71,D519127,MOBILE_DESC,60-80 chars,"V & V Appliance Parts Inc, Product, D519127, Tool Form Kit",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+72,DF7004WE,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DF7004WE",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+73,DR7004BE,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DR7004BE",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+74,DV2000WE,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DV2000WE",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+75,DC5004WE,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DC5004WE",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+76,DC5004BE,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DC5004BE",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+77,WKE100HWA,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, WKE100HWA",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+78,FF7011WN,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, FF7011WN",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+79,PTD70GBPTDG,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PTD70GBPTDG",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+80,PTD70GBSTWS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PTD70GBSTWS",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+81,DR5004WG,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DR5004WG",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+82,DR7004BG,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DR7004BG",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+83,DR7004WG,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DR7004WG",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+84,DV2000WG,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DV2000WG",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+85,DC5004WG,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DC5004WG",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+86,DC5004BG,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, DC5004BG",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+87,PTW705BSTWS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PTW705BSTWS",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+88,MVWP586GW,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, MVWP586GW",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+89,TV2000WN,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, TV2000WN",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+90,TC5003BN,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, TC5003BN",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+91,TR7006WN,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, TR7006WN",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+92,TR7006BN,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, TR7006BN",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+93,TR5006WN,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, TR5006WN",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+94,05134545001,MOBILE_DESC,60-80 chars,"Wera Tools NA Inc, Product, 05134545001",DESCRIPTION_MISMATCH,Length 39 outside 60-80 range
+95,LNL65301,MOBILE_DESC,60-80 chars,"Product, LNL65301",DESCRIPTION_MISMATCH,Length 17 outside 60-80 range
+96,25-A,MOBILE_DESC,60-80 chars,"Rees Cast Stone Company, Product, 25-A",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+97,38-E,MOBILE_DESC,60-80 chars,"Rees Cast Stone Company, Product, 38-E",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+98,59-J,MOBILE_DESC,60-80 chars,"Rees Cast Stone Company, Product, 59-J",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+99,44-A,MOBILE_DESC,60-80 chars,"Rees Cast Stone Company, Product, 44-A",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+102,73019603,MOBILE_DESC,60-80 chars,"Railing Kits, 73019603, Length 6 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+103,73019652,MOBILE_DESC,60-80 chars,"Railing Kits, 73019652, Length 8 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+104,73019517,MOBILE_DESC,60-80 chars,"Railing Kits, 73019517, Length 10 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+105,73019602,MOBILE_DESC,60-80 chars,"Railing Kits, 73019602, Length 6 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+106,73019651,MOBILE_DESC,60-80 chars,"Railing Kits, 73019651, Length 8 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+107,73019516,MOBILE_DESC,60-80 chars,"Railing Kits, 73019516, Length 10 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+110,73045028,MOBILE_DESC,60-80 chars,"Product, 73045028",DESCRIPTION_MISMATCH,Length 17 outside 60-80 range
+111,73045031,MOBILE_DESC,60-80 chars,"Product, 73045031",DESCRIPTION_MISMATCH,Length 17 outside 60-80 range
+280,73018076,MOBILE_DESC,60-80 chars,"Post Sleeves & Accessories, 73018076, Post Size 4 in",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+282,73018731,MOBILE_DESC,60-80 chars,"Post Sleeves & Accessories, 73018731, Post Size 6 in",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+283,61109090,MOBILE_DESC,60-80 chars,"Post Sleeves & Accessories, 61109090, Post Size 4 in",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+284,73053603,MOBILE_DESC,60-80 chars,"Post Sleeves & Accessories, 73053603, Post Size 4 in",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+285,73053608,MOBILE_DESC,60-80 chars,"Post Sleeves & Accessories, 73053608, Post Size 6 in",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+286,543340896,MOBILE_DESC,60-80 chars,"Boise Cascade Building Materials, Railing Kits, 543340896",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+287,543340898,MOBILE_DESC,60-80 chars,"Boise Cascade Building Materials, Railing Kits, 543340898",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+291,73019599,MOBILE_DESC,60-80 chars,"Railing Kits, 73019599, Length 6 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+292,73019648,MOBILE_DESC,60-80 chars,"Railing Kits, 73019648, Length 8 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+293,73019598,MOBILE_DESC,60-80 chars,"Railing Kits, 73019598, Length 6 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+294,73019647,MOBILE_DESC,60-80 chars,"Railing Kits, 73019647, Length 8 ft, Tool Form Kit",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+299,27233,MOBILE_DESC,60-80 chars,"A J Manufacturing Inc, Product, 27233",DESCRIPTION_MISMATCH,Length 37 outside 60-80 range
+300,1517602,MOBILE_DESC,60-80 chars,"United Window & Door Manufacturing, Product, 1517602",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+301,1517603,MOBILE_DESC,60-80 chars,"United Window & Door Manufacturing, Product, 1517603",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+302,1517604,MOBILE_DESC,60-80 chars,"United Window & Door Manufacturing, Product, 1517604",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+303,1517605,MOBILE_DESC,60-80 chars,"United Window & Door Manufacturing, Product, 1517605",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+307,1501831,MOBILE_DESC,60-80 chars,"ProVia, Product, 1501831, Unmapped Dimension 1 31-1/2 in",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+308,1501832,MOBILE_DESC,60-80 chars,"ProVia, Product, 1501832, Unmapped Dimension 1 31-1/2 in",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+309,1515974,MOBILE_DESC,60-80 chars,"Product, 1515974",DESCRIPTION_MISMATCH,Length 16 outside 60-80 range
+317,1513579,MOBILE_DESC,60-80 chars,"Westwood Lumber Sales, Product, 1513579",DESCRIPTION_MISMATCH,Length 39 outside 60-80 range
+320,PP-8BL,MOBILE_DESC,60-80 chars,"Premier Metals, Product, PP-8BL, Unmapped Dimension 1 8 ft",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+323,PP-8CH,MOBILE_DESC,60-80 chars,"Premier Metals, Product, PP-8CH, Unmapped Dimension 1 8 ft",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+326,PP-8WH,MOBILE_DESC,60-80 chars,"Premier Metals, Product, PP-8WH, Unmapped Dimension 1 8 ft",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+328,1504345,MOBILE_DESC,60-80 chars,"Palmer Donavin Mfg Company, Product, 1504345",DESCRIPTION_MISMATCH,Length 44 outside 60-80 range
+330,7547,MOBILE_DESC,60-80 chars,"Product, 7547",DESCRIPTION_MISMATCH,Length 13 outside 60-80 range
+331,8912220,MOBILE_DESC,60-80 chars,"Boise Cascade Building Materials, Product, 8912220",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+333,25796,MOBILE_DESC,60-80 chars,"U S Lumber, Product, 25796, Unmapped Dimension 1 6 in",DESCRIPTION_MISMATCH,Length 53 outside 60-80 range
+334,40503,MOBILE_DESC,60-80 chars,"U S Lumber, Product, 40503, Unmapped Dimension 1 16 in",DESCRIPTION_MISMATCH,Length 54 outside 60-80 range
+335,25825,MOBILE_DESC,60-80 chars,"U S Lumber, Product, 25825, Unmapped Dimension 1 4 in",DESCRIPTION_MISMATCH,Length 53 outside 60-80 range
+336,25822,MOBILE_DESC,60-80 chars,"U S Lumber, Product, 25822, Unmapped Dimension 1 12 in",DESCRIPTION_MISMATCH,Length 54 outside 60-80 range
+337,543650101,MOBILE_DESC,60-80 chars,"Trex Company, Inc., Trex®, Product, 543650101",DESCRIPTION_MISMATCH,Length 45 outside 60-80 range
+338,543650010,MOBILE_DESC,60-80 chars,"Trex Company, Inc., Trex®, Product, 543650010",DESCRIPTION_MISMATCH,Length 45 outside 60-80 range
+344,402-R,MOBILE_DESC,60-80 chars,"MillerTech Energy Solutions, Batteries & Chargers, 402-R",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+345,SL1672,MOBILE_DESC,60-80 chars,"Product, SL1672",DESCRIPTION_MISMATCH,Length 15 outside 60-80 range
+347,BHA1-UPC,MOBILE_DESC,60-80 chars,"Southwire/g Turner, Product, BHA1-UPC",DESCRIPTION_MISMATCH,Length 37 outside 60-80 range
+358,54171-R-UPC,MOBILE_DESC,60-80 chars,"Southwire/g Turner, Product, 54171-R-UPC",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+361,5522-5EV,MOBILE_DESC,60-80 chars,"Cooper Wiring Devices, Product, 5522-5EV",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+362,AYCL-153PH-LA,MOBILE_DESC,60-80 chars,"Fenton Bros Electric Inc, Product, AYCL-153PH-LA",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+363,AYCL-153PH-WH,MOBILE_DESC,60-80 chars,"Fenton Bros Electric Inc, Product, AYCL-153PH-WH",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+364,D23LP-R02-1RW,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, D23LP-R02-1RW",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+365,TNOCD002,MOBILE_DESC,60-80 chars,"Prime Wire & Cable, Product, TNOCD002, Voltage Rating 125 V",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+366,TNDHD002,MOBILE_DESC,60-80 chars,"Prime Wire & Cable, Product, TNDHD002, Voltage Rating 125 V",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+367,TNIDP12,MOBILE_DESC,60-80 chars,"Prime Wire & Cable, Product, TNIDP12, Voltage Rating 125 V",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+368,TNIW24,MOBILE_DESC,60-80 chars,"Prime Wire & Cable, Product, TNIW24, Voltage Rating 125 V",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+369,65-1222,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, 65-1222, Unmapped Dimension 1 1 ft",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+370,65-1224,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, 65-1224, Unmapped Dimension 1 4 ft",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+371,45297BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 45297BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+372,45573BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 45573BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+373,37418A,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 37418A",DESCRIPTION_MISMATCH,Length 33 outside 60-80 range
+374,37423A,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 37423A",DESCRIPTION_MISMATCH,Length 33 outside 60-80 range
+375,45496BKCLR,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 45496BKCLR",DESCRIPTION_MISMATCH,Length 37 outside 60-80 range
+376,45973BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 45973BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+377,55155BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55155BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+378,55157CPZ,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55157CPZ",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+379,55184BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55184BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+380,55185BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55185BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+381,55186CH,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55186CH",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+382,55210NI,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55210NI",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+383,55211BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55211BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+384,55211NI,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55211NI",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+385,55212NI,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55212NI",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+386,55226BKLFU,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55226BKLFU",DESCRIPTION_MISMATCH,Length 37 outside 60-80 range
+387,55239CPZLED,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55239CPZLED",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+388,44072DBK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 44072DBK",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+389,44073NI,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 44073NI",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+390,52033BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52033BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+391,84322WH,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 84322WH",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+392,52404BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52404BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+393,34686A,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 34686A",DESCRIPTION_MISMATCH,Length 33 outside 60-80 range
+394,34687A,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 34687A",DESCRIPTION_MISMATCH,Length 33 outside 60-80 range
+395,34688A,MOBILE_DESC,60-80 chars,"Product, 34688A",DESCRIPTION_MISMATCH,Length 15 outside 60-80 range
+396,43671BKCLR,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 43671BKCLR",DESCRIPTION_MISMATCH,Length 37 outside 60-80 range
+397,52616BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52616BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+398,52616NI,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52616NI",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+399,52678BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52678BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+400,52680CPZ,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52680CPZ",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+401,52772BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52772BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+402,82399,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 82399",DESCRIPTION_MISMATCH,Length 32 outside 60-80 range
+403,65-771R3,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, 65-771R3",DESCRIPTION_MISMATCH,Length 33 outside 60-80 range
+404,42955BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 42955BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+405,42275BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 42275BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+410,42296BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 42296BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+411,43913BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 43913BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+413,64-110,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, 64-110, Unmapped Dimension 1 16 ft",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+416,52476AVI,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52476AVI",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+417,42199BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 42199BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+418,42199BKCS,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 42199BKCS",DESCRIPTION_MISMATCH,Length 36 outside 60-80 range
+419,42200BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 42200BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+420,42200BKCS,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 42200BKCS",DESCRIPTION_MISMATCH,Length 36 outside 60-80 range
+421,43851BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 43851BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+422,43852BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 43852BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+423,43853BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 43853BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+424,43905BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 43905BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+425,43911BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 43911BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+426,52529BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52529BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+427,52662BKCLR,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52662BKCLR",DESCRIPTION_MISMATCH,Length 37 outside 60-80 range
+428,52734CPZ,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 52734CPZ",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+429,82400,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 82400",DESCRIPTION_MISMATCH,Length 32 outside 60-80 range
+430,S11606,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S11606, Unmapped Dimension 1 8 in",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+431,S11828,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S11828, Unmapped Dimension 1 8 in",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+433,S11860,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S11860, Unmapped Dimension 1 6 in",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+434,S11562,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S11562, Unmapped Dimension 1 6 in",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+435,S11646,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S11646, Unmapped Dimension 1 6 in",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+437,S11848,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S11848, Unmapped Dimension 1 10 in",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+438,S11849,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S11849, Unmapped Dimension 1 12 in",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+441,43849WH5CCT,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 43849WH5CCT",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+448,45495BKCLR,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 45495BKCLR",DESCRIPTION_MISMATCH,Length 37 outside 60-80 range
+449,55209NI,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 55209NI",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+450,65-1210,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, 65-1210, Unmapped Dimension 1 2 ft",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+451,65-1211,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, 65-1211, Unmapped Dimension 1 4 ft",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+455,S3539,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S3539",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+456,S3496,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S3496",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+457,467316,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 467316",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+458,S3709,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S3709",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+459,S4720,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S4720",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+460,S3720,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S3720",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+461,S3702,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S3702",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+462,S3703,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S3703",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+463,S3797,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S3797",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+464,S4724,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S4724",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+465,S4717,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S4717",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+466,S3794,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S3794",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+467,S3795,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S3795",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+468,S4726,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S4726",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+469,S11429,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S11429",DESCRIPTION_MISMATCH,Length 31 outside 60-80 range
+470,S21354,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S21354",DESCRIPTION_MISMATCH,Length 31 outside 60-80 range
+471,S21363,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S21363",DESCRIPTION_MISMATCH,Length 31 outside 60-80 range
+472,S11445,MOBILE_DESC,60-80 chars,"Satco Prod Inc, Product, S11445",DESCRIPTION_MISMATCH,Length 31 outside 60-80 range
+473,567313,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 567313",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+474,586875,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 586875",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+475,576355,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576355",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+476,576363,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576363",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+477,565374,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565374",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+478,565390,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565390",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+479,576371,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576371",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+480,576496,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576496",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+481,564856,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564856",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+482,565796,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565796",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+483,576389,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576389",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+484,564492,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564492",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+485,603449,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 603449",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+486,586909,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 586909",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+487,566364,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 566364",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+488,576397,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576397",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+489,571497,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 571497",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+490,576306,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576306",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+491,588533,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 588533",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+492,576520,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576520",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+493,574004,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 574004",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+494,574012,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 574012",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+495,573971,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573971",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+496,573989,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573989",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+497,576769,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576769",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+498,567446,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 567446",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+499,573997,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573997",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+500,571463,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 571463",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+501,576512,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576512",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+502,581181,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 581181",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+503,GT-CB-100C,MOBILE_DESC,60-80 chars,"Keystone, Product, GT-CB-100C",DESCRIPTION_MISMATCH,Length 29 outside 60-80 range
+504,566430,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 566430",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+505,568337,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 568337",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+506,565788,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565788",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+507,565770,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565770",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+508,573436,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573436",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+509,576538,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576538",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+510,573451,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573451",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+511,586883,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 586883",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+512,586859,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 586859",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+513,576488,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576488",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+514,575217,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 575217",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+515,586479,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 586479",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+516,571471,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 571471",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+517,570762,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 570762",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+518,533352,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 533352",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+519,573519,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573519",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+520,573378,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573378",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+521,565622,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565622",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+522,586891,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 586891",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+523,585448,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 585448",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+524,573444,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573444",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+525,566687,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 566687",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+526,564385,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564385",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+527,566661,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 566661",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+528,564898,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564898",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+529,538319,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 538319",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+530,576009,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576009",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+531,564450,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564450",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+532,572669,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 572669",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+533,564906,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564906",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+534,573410,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573410",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+535,576504,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576504",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+536,576017,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576017",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+537,574392,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 574392",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+538,576751,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 576751",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+539,583161,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 583161",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+540,566695,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 566695",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+541,577007,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 577007",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+542,566653,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 566653",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+543,566679,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 566679",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+544,573311,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573311",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+545,573394,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573394",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+546,573329,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573329",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+547,564930,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564930",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+548,565000,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565000",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+549,564922,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564922",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+550,573295,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573295",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+551,564914,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564914",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+552,573485,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573485",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+553,573337,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573337",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+554,544874,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 544874",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+555,570846,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 570846",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+556,565473,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565473",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+557,573402,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573402",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+558,573352,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573352",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+559,573428,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573428",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+560,573386,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573386",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+561,564948,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564948",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+562,573303,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573303",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+563,573188,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573188",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+564,573469,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573469",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+565,565671,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565671",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+566,573204,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573204",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+567,581199,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 581199",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+568,565887,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565887",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+569,586867,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 586867",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+570,568451,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 568451",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+571,568444,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 568444",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+572,573196,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 573196",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+573,564500,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 564500",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+574,571513,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 571513",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+575,588566,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 588566",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+576,565655,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565655",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+577,565812,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 565812",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+578,586917,MOBILE_DESC,60-80 chars,"Phillips Lighting, Product, 586917",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+579,46719,MOBILE_DESC,60-80 chars,"Maxsa Innovations, Product, 46719",DESCRIPTION_MISMATCH,Length 33 outside 60-80 range
+580,59061BSL,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 59061BSL",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+581,59062BSL,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 59062BSL",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+582,59124BKT,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 59124BKT",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+583,59025BK,MOBILE_DESC,60-80 chars,"Kichler Lighting, Product, 59025BK",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+584,DCL183,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DCL183",DESCRIPTION_MISMATCH,Length 54 outside 60-80 range
+585,73020,MOBILE_DESC,60-80 chars,"Streamlight, Product, 73020",DESCRIPTION_MISMATCH,Length 27 outside 60-80 range
+586,NEB-FLT-1021,MOBILE_DESC,60-80 chars,"ACG Brands, Product, NEB-FLT-1021",DESCRIPTION_MISMATCH,Length 33 outside 60-80 range
+587,NEB-FLT-0053,MOBILE_DESC,60-80 chars,"ACG Brands, Product, NEB-FLT-0053",DESCRIPTION_MISMATCH,Length 33 outside 60-80 range
+588,97708,MOBILE_DESC,60-80 chars,"Police Security, Product, 97708",DESCRIPTION_MISMATCH,Length 31 outside 60-80 range
+589,WORK6000XLTPPLUG,MOBILE_DESC,60-80 chars,"Feit Electric, Product, WORK6000XLTPPLUG",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+590,HOM2040M200PRB,MOBILE_DESC,60-80 chars,"Square D Con Prod Dv, Product, HOM2040M200PRB",DESCRIPTION_MISMATCH,Length 45 outside 60-80 range
+591,HOM3060L225PGC,MOBILE_DESC,60-80 chars,"Square D Con Prod Dv, Product, HOM3060L225PGC",DESCRIPTION_MISMATCH,Length 45 outside 60-80 range
+592,QO612L100RBCP,MOBILE_DESC,60-80 chars,"Square D Con Prod Dv, Product, QO612L100RBCP",DESCRIPTION_MISMATCH,Length 44 outside 60-80 range
+593,13093005,MOBILE_DESC,60-80 chars,"Southwire/g Turner, Product, 13093005, Material Aluminum",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+594,12-4 SO,MOBILE_DESC,60-80 chars,"Product, 12-4 SO",DESCRIPTION_MISMATCH,Length 16 outside 60-80 range
+595,96263-46-06,MOBILE_DESC,60-80 chars,"Woods Wire Southwire, Product, 96263-46-06",DESCRIPTION_MISMATCH,Length 42 outside 60-80 range
+597,10-4 SO,MOBILE_DESC,60-80 chars,"Southwire/g Turner, Product, 10-4 SO",DESCRIPTION_MISMATCH,Length 36 outside 60-80 range
+598,23346-0408,MOBILE_DESC,60-80 chars,"Product, 23346-0408",DESCRIPTION_MISMATCH,Length 19 outside 60-80 range
+600,55418901,MOBILE_DESC,60-80 chars,"Southwire/g Turner, Product, 55418901, Material Aluminum",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+602,R02-D215P-1RW,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R02-D215P-1RW",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+603,PBUC013,MOBILE_DESC,60-80 chars,"Prime Wire & Cable, Product, PBUC013",DESCRIPTION_MISMATCH,Length 36 outside 60-80 range
+604,R00-GFNT1-00K,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R00-GFNT1-00K",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+605,R92-GFWT1-0KW,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R92-GFWT1-0KW",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+606,R12-AGTR1-0KW,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R12-AGTR1-0KW",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+607,R62-GFTA1-0KW,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R62-GFTA1-0KW",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+610,R02-GUAC1-0BW,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R02-GUAC1-0BW",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+611,R56-CBR15-00T,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R56-CBR15-00T",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+612,R20-05378-P00,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R20-05378-P00",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+613,WC1V12W-SG-UPC,MOBILE_DESC,60-80 chars,"Southwire/g Turner, Product, WC1V12W-SG-UPC",DESCRIPTION_MISMATCH,Length 43 outside 60-80 range
+614,R51-GSRA1-THD,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R51-GSRA1-THD",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+615,R62-CBR15-00W,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R62-CBR15-00W",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+616,S03-05226-IS,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, S03-05226-IS",DESCRIPTION_MISMATCH,Length 37 outside 60-80 range
+617,174-0CSB3-15W,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, 174-0CSB3-15W",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+618,R50-0SL13-000,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R50-0SL13-000",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+619,R52-0PJ13-00W,MOBILE_DESC,60-80 chars,"Leviton Mfg Co, Product, R52-0PJ13-00W",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+620,XOU2470BCGS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, XOU2470BCGS",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+621,XOU24BCGSR,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, XOU24BCGSR",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+622,XOU24WDZGBR,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, XOU24WDZGBR",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+623,C7CDAAS3PD3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CDAAS3PD3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+624,C7CDAAS4PW3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CDAAS4PW3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+625,C7CDABS2RS3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CDABS2RS3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+626,C7CDABS3RD3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CDABS3RD3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+627,C7CDABS4RW3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CDABS4RW3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+628,C7CEBBS2RS3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CEBBS2RS3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+629,C7CEBBS4RW3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CEBBS4RW3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+630,C7CESAS2RS3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CESAS2RS3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+631,C7CESAS3RD3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CESAS3RD3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+632,C7CESAS4RW3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C7CESAS4RW3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+633,WOSP30100SS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, WOSP30100SS",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+634,MSER2090S,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, MSER2090S",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+635,GCST16S1WSS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, GCST16S1WSS",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+636,PCWK15C1WSS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PCWK15C1WSS",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+637,SMC2266KS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, SMC2266KS",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+638,SMD2479JS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, SMD2479JS",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+649,CHP90301TBB,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, CHP90301TBB",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+650,CVM517P3RD1,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, CVM517P3RD1",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+651,PMOS1980AF,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PMOS1980AF",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+652,WMMS3330RZ,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, WMMS3330RZ",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+653,KMMF530PBE,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, KMMF530PBE",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+654,JXGRILL1,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, JXGRILL1",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+655,C9TMA2S3PD3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C9TMA2S3PD3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+656,C9TMA2S4PW3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C9TMA2S4PW3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+657,C90AAAS2RS3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C90AAAS2RS3",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+658,C9TMA2SP2PS3,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, C9TMA2SP2PS3",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+659,GDE21EMKES,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, GDE21EMKES",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+660,FCM16SLWW,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, FCM16SLWW",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+661,GNE27JYMFS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, GNE27JYMFS",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+662,CVE28DP3ND1,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, CVE28DP3ND1",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+663,GNE25JMKES,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, GNE25JMKES",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+665,PAD28BYTFS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PAD28BYTFS",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+666,PGE29BYTFS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, PGE29BYTFS",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+667,ERFD19CGCS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, ERFD19CGCS",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+668,LT18S2100W,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, LT18S2100W",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+669,LT18S2100SS,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, LT18S2100SS",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+670,EUF17CDBW,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, EUF17CDBW",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+671,EUF21CDBW,MOBILE_DESC,60-80 chars,"Appliance Dealers Cooperative, Product, EUF21CDBW",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+677,51334,MOBILE_DESC,60-80 chars,"Hunter Fan Co, Product, 51334, Unmapped Dimension 1 44 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+678,59210,MOBILE_DESC,60-80 chars,"Hunter Fan Co, Product, 59210, Unmapped Dimension 1 52 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+679,52485,MOBILE_DESC,60-80 chars,"Hunter Fan Co, Product, 52485, Unmapped Dimension 1 52 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+680,52486,MOBILE_DESC,60-80 chars,"Hunter Fan Co, Product, 52486, Unmapped Dimension 1 44 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+681,52487,MOBILE_DESC,60-80 chars,"Hunter Fan Co, Product, 52487, Unmapped Dimension 1 52 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+682,52488,MOBILE_DESC,60-80 chars,"Hunter Fan Co, Product, 52488, Unmapped Dimension 1 44 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+683,52655,MOBILE_DESC,60-80 chars,"Hunter Fan Co, Product, 52655, Unmapped Dimension 1 52 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+684,59261,MOBILE_DESC,60-80 chars,"Hunter Fan Co, Product, 59261, Unmapped Dimension 1 52 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+685,51731,MOBILE_DESC,60-80 chars,"Hunter Fan Co, Product, 51731, Unmapped Dimension 1 52 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+686,XLC10ZW,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Cordless Power Tools, XLC10ZW",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+687,HS-DA,MOBILE_DESC,60-80 chars,"Sabre, Product, HS-DA",DESCRIPTION_MISMATCH,Length 21 outside 60-80 range
+688,73002252,MOBILE_DESC,60-80 chars,"Gate Hardware, 73002252, Fastener Type Gravity Latch",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+689,48-22-8396R,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 48-22-8396R",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+690,48-22-8397R,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 48-22-8397R",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+693,DWST41092,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DWST41092",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+698,1624157,MOBILE_DESC,60-80 chars,"Product, 1624157",DESCRIPTION_MISMATCH,Length 16 outside 60-80 range
+699,40025,MOBILE_DESC,60-80 chars,"Marshalltown Company, Marshalltown®, Product, 40025",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+700,48-22-3301,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 48-22-3301",DESCRIPTION_MISMATCH,Length 47 outside 60-80 range
+701,48-22-3302,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 48-22-3302",DESCRIPTION_MISMATCH,Length 47 outside 60-80 range
+702,48-22-3303,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 48-22-3303",DESCRIPTION_MISMATCH,Length 47 outside 60-80 range
+703,TSDKAP218-G2,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, TSDKAP218-G2",DESCRIPTION_MISMATCH,Length 39 outside 60-80 range
+704,XPAP418,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, XPAP418",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+705,XDAP419,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, XDAP419",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+706,XB11PCVS,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, XB11PCVS",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+707,KB121VS,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, KB121VS",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+708,KB126VS,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, KB126VS",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+709,TC121VS,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, TC121VS",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+710,TC126VS,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, TC126VS",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+711,MK113MPAP,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, MK113MPAP",DESCRIPTION_MISMATCH,Length 36 outside 60-80 range
+712,LS117MPAP,MOBILE_DESC,60-80 chars,"Edge Eyewear Inc, Product, LS117MPAP",DESCRIPTION_MISMATCH,Length 36 outside 60-80 range
+713,FE-EFX-6L,MOBILE_DESC,60-80 chars,"Ohio Firewatch Protection Inc, Product, FE-EFX-6L",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+714,FE-EFX-9L,MOBILE_DESC,60-80 chars,"Ohio Firewatch Protection Inc, Product, FE-EFX-9L",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+715,1046793,MOBILE_DESC,60-80 chars,"First Alert - B R K Brands, Product, 1046793",DESCRIPTION_MISMATCH,Length 44 outside 60-80 range
+716,1046870,MOBILE_DESC,60-80 chars,"First Alert - B R K Brands, Product, 1046870",DESCRIPTION_MISMATCH,Length 44 outside 60-80 range
+717,M701B-21L,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, M701B-21L",DESCRIPTION_MISMATCH,Length 46 outside 60-80 range
+718,M701B-21M,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, M701B-21M",DESCRIPTION_MISMATCH,Length 46 outside 60-80 range
+719,M701B-21S,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, M701B-21S",DESCRIPTION_MISMATCH,Length 46 outside 60-80 range
+720,M701B-21XL,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, M701B-21XL",DESCRIPTION_MISMATCH,Length 47 outside 60-80 range
+721,MWUG42010124,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG42010124",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+722,MWUG42010224,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG42010224",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+723,MWUG42010324,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG42010324",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+724,MWUG42010424,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG42010424",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+725,MWUG42010524,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG42010524",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+726,MWUG42010624,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG42010624",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+727,MWUG36010225,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG36010225",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+728,MWUG36010325,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG36010325",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+729,MWUG36010425,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG36010425",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+730,MWUG36010525,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG36010525",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+731,MWUG36010625,MOBILE_DESC,60-80 chars,"Tech Gear 5.7 Inc, Product, MWUG36010625",DESCRIPTION_MISMATCH,Length 40 outside 60-80 range
+732,DPG15,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DPG15",DESCRIPTION_MISMATCH,Length 53 outside 60-80 range
+741,48-11-2330,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 48-11-2330",DESCRIPTION_MISMATCH,Length 47 outside 60-80 range
+743,5328,MOBILE_DESC,60-80 chars,"Product, 5328",DESCRIPTION_MISMATCH,Length 13 outside 60-80 range
+744,3200-20,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 3200-20",DESCRIPTION_MISMATCH,Length 44 outside 60-80 range
+745,3202-20,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 3202-20",DESCRIPTION_MISMATCH,Length 44 outside 60-80 range
+746,3203-20,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 3203-20",DESCRIPTION_MISMATCH,Length 44 outside 60-80 range
+749,DW08302CG,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DW08302CG",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+750,GCL165-42GL,MOBILE_DESC,60-80 chars,"Robert Bosch Tool Corp, Bosch®, Product, GCL165-42GL",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+751,DW08802CG,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DW08802CG",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+752,DW088CG,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DW088CG",DESCRIPTION_MISMATCH,Length 55 outside 60-80 range
+753,DW089CG,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DW089CG",DESCRIPTION_MISMATCH,Length 55 outside 60-80 range
+756,DW0822CG,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DW0822CG",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+767,55227,MOBILE_DESC,60-80 chars,"Amana Tool Corp, Bits, 55227, Diameter 1/8 in",DESCRIPTION_MISMATCH,Length 45 outside 60-80 range
+768,37300952,MOBILE_DESC,60-80 chars,"Product, 37300952, Unmapped Dimension 1 3/8 in",DESCRIPTION_MISMATCH,Length 46 outside 60-80 range
+769,6008,MOBILE_DESC,60-80 chars,"Whiteside Machine & Repair Co, Whiteside®, Router Bit, 6008",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+770,6009,MOBILE_DESC,60-80 chars,"Whiteside Machine & Repair Co, Whiteside®, Router Bit, 6009",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+772,MID6630201US,MOBILE_DESC,60-80 chars,"Mirka Abrasives Inc, Cordless Power Tools, MID6630201US",DESCRIPTION_MISMATCH,Length 55 outside 60-80 range
+773,DCF6202,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DCF6202",DESCRIPTION_MISMATCH,Length 55 outside 60-80 range
+778,133164,MOBILE_DESC,60-80 chars,"Wera Tools NA Inc, Product, 133164",DESCRIPTION_MISMATCH,Length 34 outside 60-80 range
+779,DWHT10993,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DWHT10993",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+780,DWHT10994,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DWHT10994",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+781,QB22RU,MOBILE_DESC,60-80 chars,"Vessel Tools Usa Inc, Vessel®, Product, QB22RU",DESCRIPTION_MISMATCH,Length 46 outside 60-80 range
+782,QB22KU,MOBILE_DESC,60-80 chars,"Vessel Tools Usa Inc, Vessel®, Product, QB22KU",DESCRIPTION_MISMATCH,Length 46 outside 60-80 range
+783,AVM6EV,MOBILE_DESC,60-80 chars,"Malco Prod, Product, AVM6EV",DESCRIPTION_MISMATCH,Length 27 outside 60-80 range
+784,AVM6EV,MOBILE_DESC,60-80 chars,"Malco Prod, Product, AVM6EV",DESCRIPTION_MISMATCH,Length 27 outside 60-80 range
+790,DWMT45422,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DWMT45422",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+791,DWMT45424,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DWMT45424",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+795,48-44-2770,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 48-44-2770",DESCRIPTION_MISMATCH,Length 47 outside 60-80 range
+816,58006,MOBILE_DESC,60-80 chars,"King Canada Inc, Benchtop & Stationary Power Tools, 58006",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+823,XNB04Z,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Power Fastening Tools, XNB04Z",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+824,XNB05Z,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Power Fastening Tools, XNB05Z",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+825,XNB06Z,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Power Fastening Tools, XNB06Z",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+826,XNB07Z,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Power Fastening Tools, XNB07Z",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+827,DZN930,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DZN930",DESCRIPTION_MISMATCH,Length 54 outside 60-80 range
+829,XRF03Z,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Power Fastening Tools, XRF03Z",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+859,DDWSSB,MOBILE_DESC,60-80 chars,"Freud Inc, Diablo®, Product, DDWSSB",DESCRIPTION_MISMATCH,Length 35 outside 60-80 range
+860,191V02-0,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Product, 191V02-0",DESCRIPTION_MISMATCH,Length 47 outside 60-80 range
+861,XTS02Z,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Power Fastening Tools, XTS02Z",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+867,3048-20,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Cordless Power Tools, 3048-20",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+868,3049-20,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Cordless Power Tools, 3049-20",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+872,2563P-20,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Cordless Power Tools, 2563P-20",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+874,XLT03Z,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Cordless Power Tools, XLT03Z",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+875,XLT04Z,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Cordless Power Tools, XLT04Z",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+876,XLT05Z,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Cordless Power Tools, XLT05Z",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+879,3054-20,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Cordless Power Tools, 3054-20",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+880,DCF513EB,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DCF513EB",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+882,DCM200B,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, File, DCM200B",DESCRIPTION_MISMATCH,Length 52 outside 60-80 range
+886,3485-20,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Cordless Power Tools, 3485-20",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+889,924422,MOBILE_DESC,60-80 chars,"Product, 924422, Voltage Rating 120 V",DESCRIPTION_MISMATCH,Length 37 outside 60-80 range
+893,577728,MOBILE_DESC,60-80 chars,"Festool Usa, Festool®, Cordless Power Tools, 577728",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+894,577738,MOBILE_DESC,60-80 chars,"Festool Usa, Festool®, Cordless Power Tools, 577738",DESCRIPTION_MISMATCH,Length 51 outside 60-80 range
+905,578192,MOBILE_DESC,60-80 chars,"Festool Usa, Festool®, Product, 578192",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+906,578806,MOBILE_DESC,60-80 chars,"Festool Usa, Festool®, Product, 578806",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+909,48-41-0740,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Product, 48-41-0740",DESCRIPTION_MISMATCH,Length 47 outside 60-80 range
+912,230.312.08,MOBILE_DESC,60-80 chars,"CMT USA Inc, Product, 230.312.08",DESCRIPTION_MISMATCH,Length 32 outside 60-80 range
+916,DWA47421,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DWA47421",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+917,DWA4769,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DWA4769",DESCRIPTION_MISMATCH,Length 55 outside 60-80 range
+925,790.82,MOBILE_DESC,60-80 chars,"CMT USA Inc, Product, 790.82, Pack Quantity 2 pc",DESCRIPTION_MISMATCH,Length 48 outside 60-80 range
+926,794.321,MOBILE_DESC,60-80 chars,"CMT USA Inc, Product, 794.321, Pack Quantity 3 pc",DESCRIPTION_MISMATCH,Length 49 outside 60-80 range
+928,D0604TSH,MOBILE_DESC,60-80 chars,"Freud Inc, Diablo®, Saw Blade, D0604TSH, Diameter 6-1/2 in",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+932,JT1-549,MOBILE_DESC,60-80 chars,"JPW Industries, Benchtop & Stationary Power Tools, JT1-549",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+933,JT1-1371,MOBILE_DESC,60-80 chars,"JPW Industries, Benchtop & Stationary Power Tools, JT1-1371",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+935,2834-21HD,MOBILE_DESC,60-80 chars,"Milwaukee Tool, Milwaukee®, Cordless Power Tools, 2834-21HD",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+938,KPTCS725A,MOBILE_DESC,60-80 chars,"Kreg Tool Company, Kreg®, Cordless Power Tools, KPTCS725A",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+939,KPTCS450A,MOBILE_DESC,60-80 chars,"Kreg Tool Company, Kreg®, Cordless Power Tools, KPTCS450A",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+944,GSL02M1,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Cordless Power Tools, GSL02M1",DESCRIPTION_MISMATCH,Length 59 outside 60-80 range
+950,XT524,MOBILE_DESC,60-80 chars,"Bow Products, Product, XT524, Unmapped Dimension 1 24 in",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+951,XT536,MOBILE_DESC,60-80 chars,"Bow Products, Product, XT536, Unmapped Dimension 1 36 in",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+952,XT546,MOBILE_DESC,60-80 chars,"Bow Products, Product, XT546, Unmapped Dimension 1 46 in",DESCRIPTION_MISMATCH,Length 56 outside 60-80 range
+953,XTP235,MOBILE_DESC,60-80 chars,"Bow Products, Product, XTP235, Unmapped Dimension 1 35 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+954,TGP2-FA,MOBILE_DESC,60-80 chars,"Saw Stop LLC, Product, TGP2-FA",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+955,ATGI-FA,MOBILE_DESC,60-80 chars,"Saw Stop LLC, Product, ATGI-FA",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+956,ATGP-FA,MOBILE_DESC,60-80 chars,"Saw Stop LLC, Product, ATGP-FA",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+957,TGI2-FA,MOBILE_DESC,60-80 chars,"Saw Stop LLC, Product, TGI2-FA",DESCRIPTION_MISMATCH,Length 30 outside 60-80 range
+959,KPTBPS100A,MOBILE_DESC,60-80 chars,"Kreg Tool Company, Kreg®, Cordless Power Tools, KPTBPS100A",DESCRIPTION_MISMATCH,Length 58 outside 60-80 range
+976,DWV9401,MOBILE_DESC,60-80 chars,"Stanley Black & Decker, Inc., DEWALT®, Product, DWV9401",DESCRIPTION_MISMATCH,Length 55 outside 60-80 range
+977,578512,MOBILE_DESC,60-80 chars,"Festool Usa, Festool®, Product, 578512",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+978,577871,MOBILE_DESC,60-80 chars,"Festool Usa, Festool®, Product, 577871",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+979,577874,MOBILE_DESC,60-80 chars,"Festool Usa, Festool®, Product, 577874",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+980,577876,MOBILE_DESC,60-80 chars,"Festool Usa, Festool®, Product, 577876",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+981,578441,MOBILE_DESC,60-80 chars,"Festool Usa, Festool®, Product, 578441",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+984,4000-2/32,MOBILE_DESC,60-80 chars,"Robert Bosch Tool Corp, Bosch®, Product, 4000-2/32",DESCRIPTION_MISMATCH,Length 50 outside 60-80 range
+986,T-90043,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Product, T-90043",DESCRIPTION_MISMATCH,Length 46 outside 60-80 range
+987,T-90059,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, File, T-90059",DESCRIPTION_MISMATCH,Length 43 outside 60-80 range
+988,T-90065,MOBILE_DESC,60-80 chars,"Makita U.S.A., Inc., Makita®, Product, T-90065",DESCRIPTION_MISMATCH,Length 46 outside 60-80 range
+990,MAG:2044-230-1,MOBILE_DESC,60-80 chars,"J&G Machinery, Product, MAG:2044-230-1",DESCRIPTION_MISMATCH,Length 38 outside 60-80 range
+991,XTP242,MOBILE_DESC,60-80 chars,"Bow Products, Product, XTP242, Unmapped Dimension 1 42 in",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range
+992,AAS-P,MOBILE_DESC,60-80 chars,"Woodpeckers Inc, Power Tool Accessories, AAS-P",DESCRIPTION_MISMATCH,Length 46 outside 60-80 range
+993,SSCMS,MOBILE_DESC,60-80 chars,"Woodpeckers Inc, Product, SSCMS",DESCRIPTION_MISMATCH,Length 31 outside 60-80 range
+1000,T27417,MOBILE_DESC,60-80 chars,"Woodstock Intl, Benchtop & Stationary Power Tools, T27417",DESCRIPTION_MISMATCH,Length 57 outside 60-80 range

@@ -1,0 +1,253 @@
+Position,Column_Name,Category,Sample_Value,Is_Required
+1,MFR URL,Source URL,https://www.frigidaire.com/en/p/owner-center/product-support/PDSH4816AF,Optional
+2,Ref URL 1,Source URL,https://www.whirlpool.com/content/dam/global/documents/202412/owners-manual-w11323304-revj.pdf,Optional
+3,Ref URL 2,Source URL,https://www.whirlpool.com/content/dam/global/documents/202406/installation-instructions-w11323304-revG.pdf,Optional
+4,Ref URL 3,Source URL,,Optional
+5,Ref URL 4,Source URL,,Optional
+6,Ref URL 5,Source URL,,Optional
+7,PART_NUMBER,Identifier,20887830,Yes
+8,Dept,Taxonomy,Appliances,Yes
+9,Class,Taxonomy,Large Appliances,Yes
+10,Fine,Taxonomy,Dishwashers,Yes
+11,SKU - MY_PART_NUMBER,General Attribute,1515863,Optional
+12,Mfg_Part_Num,Identifier,PDSH4816AF,Optional
+13,Part_Desc,Description,PDSH4816AF Dishwasher SS - Display Only,Optional
+14,E1_Brand,Manufacturer / Brand,-- Unbranded --,Optional
+15,Unilog_Brand,Manufacturer / Brand,-- No Unilog Brand --,Optional
+16,DIB_Brand,Manufacturer / Brand,-- No DIB Brand --,Optional
+17,Part_Manuf,Manufacturer / Brand,Appliance Dealers Cooperative (APPDE),Optional
+18,MANUFACTURER_NAME,Manufacturer / Brand,Rheem Manufacturing,Optional
+19,BRAND_NAME,Manufacturer / Brand,FRIGIDAIRE®,Optional
+20,TRADE_NAME,Manufacturer / Brand,,Optional
+21,MANUFACTURER_PART_NUMBER,Manufacturer / Brand,PDSH4816AF,Optional
+22,ALTERNATE_PART_NUMBER,General Attribute,,Optional
+23,Classpath,Taxonomy,Appliances & Consumer Electronics>Kitchen Appliances>Built-In Dishwashers,Yes
+24,MOBILE_DESC,Description,"Rheem Manufacturing FRIGIDAIRE, Dishwasher, Professional Series, PDSH4816AF",Optional
+25,INVOICE_DESC,Description,DISHWASHER LEG 5 SST 120V 15A 50-1/4IN,Optional
+26,SHORT_DESC,Description,"FRIGIDAIRE® Professional Series PDSH4816AF Dishwasher With CleanBoost™, Leg Mounting, 5-Wash Cycle, Stainless Steel",Optional
+27,LONG_DESC1,Description,"FRIGIDAIRE® Dishwasher With CleanBoost™, Professional Series, 5 Wash Cycles, 120 V, 15 A, Leg Mounting, 24 in W x 24-1/4 in D, 50-1/4 in Depth With Door Open, 8-1/2 in Upper Rack, 11-1/4 in Lower Rack Minimum Height, 10-3/8 in Upper Rack, 13-1/4 in Lower Rack Maximum Height, 47 dBA Sound Level, Stainless Steel, Additional Information: 240 kW-hr Annual Energy, 1 to 12 hr Delay Start Hours",Optional
+28,RETAIL_DESC,Description,"Professional Series Dishwasher, Leg Mounting, 5-Wash Cycle, Stainless Steel",Optional
+29,MARKETING_DESCRIPTION,Description,"Load more and run less with our quietest and largest capacity dishwasher. A 3rd Rack provides dedicated space for mugs and bowls, while an adjustable 2nd Rack helps fit all the dishes and pans your family piles up.",Optional
+30,ITEM_FEATURES_1,Item Feature,3rd rack with extra wash action,Optional
+31,ITEM_FEATURES_2,Item Feature,Adjustable 2nd Rack,Optional
+32,ITEM_FEATURES_3,Item Feature,41 dBA,Optional
+33,ITEM_FEATURES_4,Item Feature,Moisture Repellent Silverware Basket,Optional
+34,ITEM_FEATURES_5,Item Feature,Sensor cycle,Optional
+35,ITEM_FEATURES_6,Item Feature,Sani Rinse Option,Optional
+36,ITEM_FEATURES_7,Item Feature,Leak Detection System,Optional
+37,ITEM_FEATURES_8,Item Feature,Folding Tines,Optional
+38,ITEM_FEATURES_9,Item Feature,Normal cycle,Optional
+39,ITEM_FEATURES_10,Item Feature,Triple Wash Spray,Optional
+40,ITEM_FEATURES_11,Item Feature,Quick Wash Cycle,Optional
+41,ITEM_FEATURES_12,Item Feature,,Optional
+42,ITEM_FEATURES_13,Item Feature,,Optional
+43,ITEM_FEATURES_14,Item Feature,,Optional
+44,ITEM_FEATURES_15,Item Feature,,Optional
+45,ITEM_FEATURES_16,Item Feature,,Optional
+46,ITEM_FEATURES_17,Item Feature,,Optional
+47,ITEM_FEATURES_18,Item Feature,,Optional
+48,ITEM_FEATURES_19,Item Feature,,Optional
+49,ITEM_FEATURES_20,Item Feature,,Optional
+50,With,General Attribute,With CleanBoost™,Optional
+51,Standard/Approvals,General Attribute,ASSE 1006|CEE Tier 2 Qualified|cUL Listed|ENERGY STAR Certified|NSF Certified|UL Listed,Optional
+52,Prop 65,General Attribute,,Optional
+53,Application,General Attribute,,Optional
+54,Includes,General Attribute,,Optional
+55,Product Name,Description,Dishwasher,Optional
+56,ATTRIBUTE_LABEL 1,General Attribute,Series,Optional
+57,ATTRIBUTE_VALUE 1,General Attribute,Professional Series,Optional
+58,ATTRIBUTE_UOM 1,Category Attribute,,Optional
+59,ATTRIBUTE_LABEL 2,General Attribute,Model,Optional
+60,ATTRIBUTE_VALUE 2,General Attribute,,Optional
+61,ATTRIBUTE_UOM 2,Category Attribute,,Optional
+62,ATTRIBUTE_LABEL 3,General Attribute,Number of Wash Cycles,Optional
+63,ATTRIBUTE_VALUE 3,General Attribute,5,Optional
+64,ATTRIBUTE_UOM 3,Category Attribute,,Optional
+65,ATTRIBUTE_LABEL 4,General Attribute,Voltage Rating,Optional
+66,ATTRIBUTE_VALUE 4,General Attribute,120,Optional
+67,ATTRIBUTE_UOM 4,Category Attribute,V,Optional
+68,ATTRIBUTE_LABEL 5,General Attribute,Amperage Rating,Optional
+69,ATTRIBUTE_VALUE 5,General Attribute,15,Optional
+70,ATTRIBUTE_UOM 5,Category Attribute,A,Optional
+71,ATTRIBUTE_LABEL 6,General Attribute,Mounting Type,Optional
+72,ATTRIBUTE_VALUE 6,General Attribute,Leg,Optional
+73,ATTRIBUTE_UOM 6,Category Attribute,,Optional
+74,ATTRIBUTE_LABEL 7,General Attribute,Plug Type,Optional
+75,ATTRIBUTE_VALUE 7,General Attribute,,Optional
+76,ATTRIBUTE_UOM 7,Category Attribute,,Optional
+77,ATTRIBUTE_LABEL 8,General Attribute,Size,Optional
+78,ATTRIBUTE_VALUE 8,General Attribute,24 in W x 24-1/4 in D,Optional
+79,ATTRIBUTE_UOM 8,Category Attribute,,Optional
+80,ATTRIBUTE_LABEL 9,General Attribute,Depth With Door Open,Optional
+81,ATTRIBUTE_VALUE 9,General Attribute,50-1/4,Optional
+82,ATTRIBUTE_UOM 9,Category Attribute,in,Optional
+83,ATTRIBUTE_LABEL 10,General Attribute,Minimum Height,Optional
+84,ATTRIBUTE_VALUE 10,General Attribute,"8-1/2 in Upper Rack, 11-1/4 in Lower Rack",Optional
+85,ATTRIBUTE_UOM 10,Category Attribute,in,Optional
+86,ATTRIBUTE_LABEL 11,General Attribute,Maximum Height,Optional
+87,ATTRIBUTE_VALUE 11,General Attribute,"10-3/8 in Upper Rack, 13-1/4 in Lower Rack",Optional
+88,ATTRIBUTE_UOM 11,Category Attribute,,Optional
+89,ATTRIBUTE_LABEL 12,General Attribute,Sound Level,Optional
+90,ATTRIBUTE_VALUE 12,General Attribute,47,Optional
+91,ATTRIBUTE_UOM 12,Category Attribute,dBA,Optional
+92,ATTRIBUTE_LABEL 13,General Attribute,Material,Optional
+93,ATTRIBUTE_VALUE 13,General Attribute,Stainless Steel,Optional
+94,ATTRIBUTE_UOM 13,Category Attribute,,Optional
+95,ATTRIBUTE_LABEL 14,General Attribute,Color,Optional
+96,ATTRIBUTE_VALUE 14,General Attribute,Stainless Steel,Optional
+97,ATTRIBUTE_UOM 14,Category Attribute,,Optional
+98,ATTRIBUTE_LABEL 15,General Attribute,Additional Information,Optional
+99,ATTRIBUTE_VALUE 15,General Attribute,"240 kW-hr Annual Energy, 1 to 12 hr Delay Start Hours",Optional
+100,ATTRIBUTE_UOM 15,Category Attribute,,Optional
+101,ATTRIBUTE_LABEL 16,General Attribute,,Optional
+102,ATTRIBUTE_VALUE 16,General Attribute,,Optional
+103,ATTRIBUTE_UOM 16,Category Attribute,,Optional
+104,ATTRIBUTE_LABEL 17,General Attribute,,Optional
+105,ATTRIBUTE_VALUE 17,General Attribute,,Optional
+106,ATTRIBUTE_UOM 17,Category Attribute,,Optional
+107,ATTRIBUTE_LABEL 18,General Attribute,,Optional
+108,ATTRIBUTE_VALUE 18,General Attribute,,Optional
+109,ATTRIBUTE_UOM 18,Category Attribute,,Optional
+110,ATTRIBUTE_LABEL 19,General Attribute,,Optional
+111,ATTRIBUTE_VALUE 19,General Attribute,,Optional
+112,ATTRIBUTE_UOM 19,Category Attribute,,Optional
+113,ATTRIBUTE_LABEL 20,General Attribute,,Optional
+114,ATTRIBUTE_VALUE 20,General Attribute,,Optional
+115,ATTRIBUTE_UOM 20,Category Attribute,,Optional
+116,ATTRIBUTE_LABEL 21,General Attribute,,Optional
+117,ATTRIBUTE_VALUE 21,General Attribute,,Optional
+118,ATTRIBUTE_UOM 21,Category Attribute,,Optional
+119,ATTRIBUTE_LABEL 22,General Attribute,,Optional
+120,ATTRIBUTE_VALUE 22,General Attribute,,Optional
+121,ATTRIBUTE_UOM 22,Category Attribute,,Optional
+122,ATTRIBUTE_LABEL 23,General Attribute,,Optional
+123,ATTRIBUTE_VALUE 23,General Attribute,,Optional
+124,ATTRIBUTE_UOM 23,Category Attribute,,Optional
+125,ATTRIBUTE_LABEL 24,General Attribute,,Optional
+126,ATTRIBUTE_VALUE 24,General Attribute,,Optional
+127,ATTRIBUTE_UOM 24,Category Attribute,,Optional
+128,ATTRIBUTE_LABEL 25,General Attribute,,Optional
+129,ATTRIBUTE_VALUE 25,General Attribute,,Optional
+130,ATTRIBUTE_UOM 25,Category Attribute,,Optional
+131,ATTRIBUTE_LABEL 26,General Attribute,,Optional
+132,ATTRIBUTE_VALUE 26,General Attribute,,Optional
+133,ATTRIBUTE_UOM 26,Category Attribute,,Optional
+134,ATTRIBUTE_LABEL 27,General Attribute,,Optional
+135,ATTRIBUTE_VALUE 27,General Attribute,,Optional
+136,ATTRIBUTE_UOM 27,Category Attribute,,Optional
+137,ATTRIBUTE_LABEL 28,General Attribute,,Optional
+138,ATTRIBUTE_VALUE 28,General Attribute,,Optional
+139,ATTRIBUTE_UOM 28,Category Attribute,,Optional
+140,ATTRIBUTE_LABEL 29,General Attribute,,Optional
+141,ATTRIBUTE_VALUE 29,General Attribute,,Optional
+142,ATTRIBUTE_UOM 29,Category Attribute,,Optional
+143,ATTRIBUTE_LABEL 30,General Attribute,,Optional
+144,ATTRIBUTE_VALUE 30,General Attribute,,Optional
+145,ATTRIBUTE_UOM 30,Category Attribute,,Optional
+146,ATTRIBUTE_LABEL 31,General Attribute,,Optional
+147,ATTRIBUTE_VALUE 31,General Attribute,,Optional
+148,ATTRIBUTE_UOM 31,Category Attribute,,Optional
+149,ATTRIBUTE_LABEL 32,General Attribute,,Optional
+150,ATTRIBUTE_VALUE 32,General Attribute,,Optional
+151,ATTRIBUTE_UOM 32,Category Attribute,,Optional
+152,ATTRIBUTE_LABEL 33,General Attribute,,Optional
+153,ATTRIBUTE_VALUE 33,General Attribute,,Optional
+154,ATTRIBUTE_UOM 33,Category Attribute,,Optional
+155,ATTRIBUTE_LABEL 34,General Attribute,,Optional
+156,ATTRIBUTE_VALUE 34,General Attribute,,Optional
+157,ATTRIBUTE_UOM 34,Category Attribute,,Optional
+158,ATTRIBUTE_LABEL 35,General Attribute,,Optional
+159,ATTRIBUTE_VALUE 35,General Attribute,,Optional
+160,ATTRIBUTE_UOM 35,Category Attribute,,Optional
+161,ATTRIBUTE_LABEL 36,General Attribute,,Optional
+162,ATTRIBUTE_VALUE 36,General Attribute,,Optional
+163,ATTRIBUTE_UOM 36,Category Attribute,,Optional
+164,ATTRIBUTE_LABEL 37,General Attribute,,Optional
+165,ATTRIBUTE_VALUE 37,General Attribute,,Optional
+166,ATTRIBUTE_UOM 37,Category Attribute,,Optional
+167,ATTRIBUTE_LABEL 38,General Attribute,,Optional
+168,ATTRIBUTE_VALUE 38,General Attribute,,Optional
+169,ATTRIBUTE_UOM 38,Category Attribute,,Optional
+170,ATTRIBUTE_LABEL 39,General Attribute,,Optional
+171,ATTRIBUTE_VALUE 39,General Attribute,,Optional
+172,ATTRIBUTE_UOM 39,Category Attribute,,Optional
+173,ATTRIBUTE_LABEL 40,General Attribute,,Optional
+174,ATTRIBUTE_VALUE 40,General Attribute,,Optional
+175,ATTRIBUTE_UOM 40,Category Attribute,,Optional
+176,ATTRIBUTE_LABEL 41,General Attribute,,Optional
+177,ATTRIBUTE_VALUE 41,General Attribute,,Optional
+178,ATTRIBUTE_UOM 41,Category Attribute,,Optional
+179,ATTRIBUTE_LABEL 42,General Attribute,,Optional
+180,ATTRIBUTE_VALUE 42,General Attribute,,Optional
+181,ATTRIBUTE_UOM 42,Category Attribute,,Optional
+182,ATTRIBUTE_LABEL 43,General Attribute,,Optional
+183,ATTRIBUTE_VALUE 43,General Attribute,,Optional
+184,ATTRIBUTE_UOM 43,Category Attribute,,Optional
+185,ATTRIBUTE_LABEL 44,General Attribute,,Optional
+186,ATTRIBUTE_VALUE 44,General Attribute,,Optional
+187,ATTRIBUTE_UOM 44,Category Attribute,,Optional
+188,ATTRIBUTE_LABEL 45,General Attribute,,Optional
+189,ATTRIBUTE_VALUE 45,General Attribute,,Optional
+190,ATTRIBUTE_UOM 45,Category Attribute,,Optional
+191,ATTRIBUTE_LABEL 46,General Attribute,,Optional
+192,ATTRIBUTE_VALUE 46,General Attribute,,Optional
+193,ATTRIBUTE_UOM 46,Category Attribute,,Optional
+194,ATTRIBUTE_LABEL 47,General Attribute,,Optional
+195,ATTRIBUTE_VALUE 47,General Attribute,,Optional
+196,ATTRIBUTE_UOM 47,Category Attribute,,Optional
+197,ATTRIBUTE_LABEL 48,General Attribute,,Optional
+198,ATTRIBUTE_VALUE 48,General Attribute,,Optional
+199,ATTRIBUTE_UOM 48,Category Attribute,,Optional
+200,ATTRIBUTE_LABEL 49,General Attribute,,Optional
+201,ATTRIBUTE_VALUE 49,General Attribute,,Optional
+202,ATTRIBUTE_UOM 49,Category Attribute,,Optional
+203,ATTRIBUTE_LABEL 50,General Attribute,,Optional
+204,ATTRIBUTE_VALUE 50,General Attribute,,Optional
+205,ATTRIBUTE_UOM 50,Category Attribute,,Optional
+206,UPC,Identifier,,Optional
+207,EAN,General Attribute,,Optional
+208,GTIN,Identifier,,Optional
+209,UNSPSC,Taxonomy,,Optional
+210,Warranty,General Attribute,"1 Year Manufacturer, 1 Year Labor and Parts",Optional
+211,List Price,General Attribute,,Optional
+212,Selling Qty,General Attribute,,Optional
+213,Selling UOM,Category Attribute,,Optional
+214,Standard Packaging Information,General Attribute,,Optional
+215,LENGTH,General Attribute,,Optional
+216,LENGTH_UOM,Category Attribute,,Optional
+217,HEIGHT,General Attribute,,Optional
+218,HEIGHT_UOM,Category Attribute,,Optional
+219,WIDTH,General Attribute,,Optional
+220,WIDTH_UOM,Category Attribute,,Optional
+221,WEIGHT,General Attribute,,Optional
+222,WEIGHT_UOM,Category Attribute,,Optional
+223,VOLUME,General Attribute,,Optional
+224,VOLUME_UOM,Category Attribute,,Optional
+225,Product Image,Digital Asset,FRIGIDAIRE_PDSH4816AF.jpg,Optional
+226,Alternate Image 1,Digital Asset,FRIGIDAIRE_PDSH4816AF_1.jpg,Optional
+227,Alternate Image 2,Digital Asset,FRIGIDAIRE_PDSH4816AF_2.jpg,Optional
+228,Alternate Image 3,Digital Asset,FRIGIDAIRE_PDSH4816AF_3.jpg,Optional
+229,Alternate Image 4,Digital Asset,FRIGIDAIRE_PDSH4816AF_4.jpg,Optional
+230,SDS,General Attribute,,Optional
+231,SDS_1,General Attribute,,Optional
+232,Warranty Information,General Attribute,,Optional
+233,Catalog,General Attribute,,Optional
+234,Specification Sheet,General Attribute,FRIGIDAIRE_PDSH4816AF_Specification_Sheet.pdf,Optional
+235,Instruction/Installation Manual,General Attribute,,Optional
+236,Service Manual,General Attribute,,Optional
+237,Owners/User Manual,General Attribute,,Optional
+238,Line Drawing,General Attribute,,Optional
+239,MTR,General Attribute,,Optional
+240,RoHS,General Attribute,,Optional
+241,Full Engineering Drawing,General Attribute,,Optional
+242,Energy Star Guide,General Attribute,,Optional
+243,Technical Bulletin,General Attribute,,Optional
+244,Submittal,General Attribute,,Optional
+245,Compatibility Chart,General Attribute,,Optional
+246,Size Chart,General Attribute,,Optional
+247,Product Label/Insert,General Attribute,,Optional
+248,Video Link,General Attribute,,Optional
+249,Video Link 1,General Attribute,,Optional
+250,Country Of Origin,General Attribute,,Optional
+251,Discontinued,General Attribute,,Optional
+252,Actual Image (Yes/No),Digital Asset,Yes,Optional

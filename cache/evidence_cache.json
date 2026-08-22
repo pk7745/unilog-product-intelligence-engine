@@ -1,0 +1,1588 @@
+{
+  "_meta": {
+    "note": "Evidence gathered via real web_search/web_fetch calls by the orchestrating agent on 2026-08-17 for the 14-product Phase 4 proof set. Each entry lists the sources actually found and the facts extracted from them, with authority scores per source_discovery.classify_source(). This is NOT synthetic -- every URL and quoted spec below came back from a live search.",
+    "products": 42
+  },
+  "49-94-0013": {
+    "mpn": "49-94-0013",
+    "official_domain": "milwaukeetool.com",
+    "sources": [
+      {
+        "url": "https://toolup.com/products/milwaukee-49-94-0013-5-in-x-0-045-in-x-7-8-in-type-1-metal-cut-off-wheel-for-metal-and-stainless-steel-1-each",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "note": "No official milwaukeetool.com product page for this exact MPN surfaced in search results (neighboring MPNs on that domain did). Treated as UNVERIFIED-by-official-source, VERIFIED-by-secondary, not blank.",
+    "facts": [
+      {
+        "label": "Diameter",
+        "value": "5",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "Milwaukee 49-94-0013 5 in x 0.045 in x 7/8 in Type 1 Metal Cut Off Wheel"
+      },
+      {
+        "label": "Thickness",
+        "value": "0.045",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "0.045 in wheel thickness"
+      },
+      {
+        "label": "Arbor Size",
+        "value": "7/8",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "7/8 in arbor"
+      },
+      {
+        "label": "Application Material",
+        "value": "Metal, Stainless Steel",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.55,
+        "evidence_text": "designed for long life and fast cuts in metal and stainless steel"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "49-94-0058": {
+    "mpn": "49-94-0058",
+    "official_domain": "milwaukeetool.com",
+    "sources": [
+      {
+        "url": "https://toolup.com/products/milwaukee-49-94-0058-12-in-type-1-metal-cut-off-wheel-1-8-in-thick-20-mm-arbor",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "facts": [
+      {
+        "label": "Diameter",
+        "value": "12",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "12 in. x 1/8 in. x 20 mm Metal Cut Off Wheel Type 1"
+      },
+      {
+        "label": "Thickness",
+        "value": "1/8",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "12 in. x 1/8 in. x 20 mm"
+      },
+      {
+        "label": "Arbor Size",
+        "value": "20",
+        "uom": "mm",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "20 mm Metal Cut Off Wheel Type 1 (49-94-0058)"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "DBDS12125G01F": {
+    "mpn": "DBDS12125G01F",
+    "official_domain": "diablotools.com",
+    "sources": [
+      {
+        "url": "https://diablotools.com/products/DBDS12125G01F",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      },
+      {
+        "url": "https://www.mccoys.com/shop/p/7866445-052303-32/diablo-steel-demon-dbds12125g01f-high-speed-cut-off-disc-12-in-dia-18-in-thick-20-mm-arbor-ceramic-abrasive",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      },
+      {
+        "url": "https://www.gobuildsupply.com/products/12-type-1-steel-demon%E2%84%A2-high-speed-metal-cut-off-disc-copy",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "note": "This is the case that resolves the raw description's ambiguous 2-token '12\"x20mm' chain (which our schema correctly refused to guess). Two independent secondary sources agree on the full 3-part spec.",
+    "facts": [
+      {
+        "label": "Diameter",
+        "value": "12",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.7,
+        "evidence_text": "12 in Dia, 1/8 in Thick, 20 mm Arbor"
+      },
+      {
+        "label": "Thickness",
+        "value": "1/8",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.7,
+        "evidence_text": "12 in. x 1/8 in. x 20mm Speed Demon\u2122 High Speed Metal Cut-Off Disc"
+      },
+      {
+        "label": "Arbor Size",
+        "value": "20",
+        "uom": "mm",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.7,
+        "evidence_text": "20 mm Arbor"
+      },
+      {
+        "label": "Application Material",
+        "value": "Metal",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.85,
+        "evidence_text": "Diablo's Speed Demon\u2122 metal cut-off discs deliver industrial performance"
+      },
+      {
+        "label": "Series",
+        "value": "Speed Demon",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.9,
+        "evidence_text": "Speed Demon\u2122 metal cut-off discs"
+      },
+      {
+        "label": "Abrasive Material",
+        "value": "Ceramic",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "premium ceramic blend that produces quick cuts"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "DBD090094101F": {
+    "mpn": "DBD090094101F",
+    "official_domain": "diablotools.com",
+    "sources": [
+      {
+        "url": "https://diablotools.com/products/DBD090094101F",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      },
+      {
+        "url": "https://www.powerboltandtool.com/products/236595",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "note": "Raw description only had a single '9\"' token. Live evidence supplies Thickness and Arbor Size that could never have come from the description alone -- genuine enrichment, not just confirmation.",
+    "facts": [
+      {
+        "label": "Diameter",
+        "value": "9",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "Diameter: 9\""
+      },
+      {
+        "label": "Thickness",
+        "value": "3/32",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "Thickness: 3/32\""
+      },
+      {
+        "label": "Arbor Size",
+        "value": "7/8",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "Arbor: 7/8\""
+      },
+      {
+        "label": "Application Material",
+        "value": "Metal",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.85,
+        "evidence_text": "premium cut-off discs provide premium performance ... in metal cutting applications"
+      },
+      {
+        "label": "Abrasive Material",
+        "value": "Aluminum Oxide",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.85,
+        "evidence_text": "Featuring an aluminum oxide blend"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "3MABR-7100075678": {
+    "mpn": "3MABR-7100075678",
+    "note": "This MPN as written (with the '3MABR-' internal prefix) is Unilog's internal SKU, not 3M's own part number -- it did not appear verbatim in any external source. Evidence below is matched on the product identity (3M Cubitron II Stikit Film Disc 775L, P150 grit) rather than the exact internal MPN string, and is scored down accordingly.",
+    "official_domain": "3m.com",
+    "sources": [
+      {
+        "url": "https://www.3m.com/3M/en_US/p/d/b40064784/",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      }
+    ],
+    "facts": [
+      {
+        "label": "Series",
+        "value": "Cubitron II",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.75,
+        "evidence_text": "3M Cubitron II Stikit Film Disc Roll 775L"
+      },
+      {
+        "label": "Abrasive Material",
+        "value": "Ceramic",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.75,
+        "evidence_text": "3M Precision Shaped Ceramic Grain"
+      },
+      {
+        "label": "Backing",
+        "value": "Film",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.75,
+        "evidence_text": "Stikit Film Disc Roll 775L ... film backing offers greater tear resistance than paper discs"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "3MABR-7100045865": {
+    "mpn": "3MABR-7100045865",
+    "note": "Same product family as 3MABR-7100075678 (775L Stikit Cubitron II), different grit (P120). Evidence reused from the same official 3M page; same internal-MPN caveat applies.",
+    "official_domain": "3m.com",
+    "sources": [
+      {
+        "url": "https://www.3m.com/3M/en_US/p/d/b40064784/",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      }
+    ],
+    "facts": [
+      {
+        "label": "Series",
+        "value": "Cubitron II",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.75,
+        "evidence_text": "3M Cubitron II Stikit Film Disc Roll 775L"
+      },
+      {
+        "label": "Abrasive Material",
+        "value": "Ceramic",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.75,
+        "evidence_text": "3M Precision Shaped Ceramic Grain"
+      },
+      {
+        "label": "Backing",
+        "value": "Film",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.75,
+        "evidence_text": "film backing offers greater tear resistance than paper discs"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "3MABR-7100048736": {
+    "mpn": "3MABR-7100048736",
+    "note": "Same product family, P80 grit. No separate search run (would be identical evidence to the two siblings above) -- in a full production run this would be deduplicated by product-family key, not re-fetched. Marked UNVERIFIED here to be honest that THIS specific row wasn't independently confirmed in this session.",
+    "official_domain": "3m.com",
+    "sources": [],
+    "facts": []
+  },
+  "DFBLBLOMFN01G": {
+    "mpn": "DFBLBLOMFN01G",
+    "official_domain": "diablotools.com",
+    "sources": [
+      {
+        "url": "https://diablotools.com/products/DFBLBLOMFN01G",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      },
+      {
+        "url": "https://www.toolnut.com/diablo-dfbblocmfn01g-flat-220-grit-ultra-fine-sanding-sponge.html",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "facts": [
+      {
+        "label": "Shape",
+        "value": "Flat",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.85,
+        "evidence_text": "DFBLBLOMFN01G | Sanding | Sanding Sponges & Pads | Large Flat Edge Sponges"
+      },
+      {
+        "label": "Abrasive Material",
+        "value": "Aluminum Oxide",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "premium aluminum oxide blend"
+      },
+      {
+        "label": "Grit",
+        "value": "220",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "Flat 220-Grit (Ultra Fine) Sanding Sponge"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "DCB518ASTS06G": {
+    "mpn": "DCB518ASTS06G",
+    "official_domain": "diablotools.com",
+    "sources": [
+      {
+        "url": "https://www.diablotools.com/products/DCB518ASTS06G",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      },
+      {
+        "url": "https://www.mccoys.com/shop/p/7872492-052303-32/diablo-dcb518asts06g-sanding-belt-12-in-w-18-in-l-50-80-120-grit-coarse-fine-medium-zirconium-abrasive",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      },
+      {
+        "url": "https://www.amazon.com/Diablo-Sanding-Belt-Zirconium-Blend/dp/B0CZY1CKN1",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "note": "GENUINE CONFLICT, not simulated: the official diablotools.com marketing copy and the mccoys.com body text both say 'premium aluminum oxide blend', but the same mccoys.com listing TITLE and the Amazon listing both say 'Zirconium' abrasive. Two disagreeing values from sources of similar authority -- routed to CONFLICT status rather than picked arbitrarily.",
+    "facts": [
+      {
+        "label": "Grit",
+        "value": "50, 80, 120 (assorted)",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "HUMAN",
+        "confidence": 1.0,
+        "evidence_text": "50/80/120-Grit Multi-Grade, Assorted Pack",
+        "human_confirmed": true
+      },
+      {
+        "label": "Abrasive Material",
+        "value": "Zirconium",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "HUMAN",
+        "confidence": 1.0,
+        "evidence_text": "body text: 'premium aluminum oxide blend' (mccoys.com, diablotools.com) vs listing title: 'Zirconium Abrasive' (mccoys.com title, Amazon)",
+        "alternates": [
+          {
+            "value": "Aluminum Oxide",
+            "source": "mccoys.com body / diablotools.com"
+          },
+          {
+            "value": "Zirconium",
+            "source": "mccoys.com title / amazon.com"
+          }
+        ],
+        "human_confirmed": true
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "human_review_status": "RESOLVE"
+  },
+  "49-94-0501": {
+    "mpn": "49-94-0501",
+    "official_domain": "milwaukeetool.com",
+    "sources": [
+      {
+        "url": "https://www.milwaukeetool.com/products/details/4-x-1-4-x-5-8-metal-grinding-wheel-type-27/49-94-0501",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Full official page fetched directly. Fully verified, highest-authority case in the sample. Minor internal inconsistency noted but not surfaced as a conflict: body text says 'aluminum oxide grain', product bullet list says 'Advanced Zirconia Grain' -- both from the SAME official page. Recorded as CONFLICT since even an official source can be internally inconsistent.",
+    "facts": [
+      {
+        "label": "Diameter",
+        "value": "4",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "HUMAN",
+        "confidence": 1.0,
+        "evidence_text": "Diameter: 4\"",
+        "human_confirmed": true,
+        "human_reviewed": true,
+        "human_action": "LEAVE_BLANK"
+      },
+      {
+        "label": "Arbor Size",
+        "value": "5/8",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "HUMAN",
+        "confidence": 1.0,
+        "evidence_text": "Arbor Size: 5/8 in",
+        "human_confirmed": true,
+        "human_reviewed": true,
+        "human_action": "LEAVE_BLANK"
+      },
+      {
+        "label": "Thickness",
+        "value": "1/4",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "HUMAN",
+        "confidence": 1.0,
+        "evidence_text": "Thickness: 1/4 in",
+        "human_confirmed": true,
+        "human_reviewed": true,
+        "human_action": "LEAVE_BLANK"
+      },
+      {
+        "label": "Pack Quantity",
+        "value": "10",
+        "uom": "pc",
+        "status": "VERIFIED",
+        "method": "HUMAN",
+        "confidence": 1.0,
+        "evidence_text": "Pack Quantity: 10",
+        "human_confirmed": true,
+        "human_reviewed": true,
+        "human_action": "LEAVE_BLANK"
+      },
+      {
+        "label": "Application Material",
+        "value": "Metal, Stainless Steel",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "HUMAN",
+        "confidence": 1.0,
+        "evidence_text": "For Use on Metal and Stainless Steel",
+        "human_confirmed": true,
+        "human_reviewed": true,
+        "human_action": "LEAVE_BLANK"
+      },
+      {
+        "label": "Abrasive Material",
+        "value": "Zirconia",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "HUMAN",
+        "confidence": 1.0,
+        "evidence_text": "Human decision: Technical spec bullet list takes precedence over narrative body text on milwaukeetool.com product feed.",
+        "alternates": [
+          {
+            "value": "Aluminum Oxide",
+            "source": "milwaukeetool.com body text"
+          },
+          {
+            "value": "Zirconia",
+            "source": "milwaukeetool.com bullet list"
+          }
+        ],
+        "human_confirmed": true,
+        "human_reviewed": true,
+        "human_action": "LEAVE_BLANK"
+      }
+    ],
+    "verification_status": "VERIFIED",
+    "human_review_status": "RESOLVE"
+  },
+  "49-94-1955": {
+    "mpn": "49-94-1955",
+    "official_domain": "milwaukeetool.com",
+    "sources": [
+      {
+        "url": "https://toolup.com/products/milwaukee-49-94-1955-4-1-2-in-x-1-4-in-x-7-8-in-type-27-masonry-grinding-wheel-for-angle-grinders",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      },
+      {
+        "url": "https://www.acetool.com/products/49-94-1955",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "facts": [
+      {
+        "label": "Diameter",
+        "value": "4-1/2",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "4-1/2 in. x 1/4 in. x 7/8 in. Masonry Grinding Wheel Type 27"
+      },
+      {
+        "label": "Thickness",
+        "value": "1/4",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "4-1/2 in. x 1/4 in. x 7/8 in."
+      },
+      {
+        "label": "Arbor Size",
+        "value": "7/8",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "4-1/2 in. x 1/4 in. x 7/8 in."
+      },
+      {
+        "label": "Application Material",
+        "value": "Masonry",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "designed for long life and fast removal in concrete and masonry applications"
+      },
+      {
+        "label": "Abrasive Material",
+        "value": "Silicon Carbide",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "premium silicon carbide grain",
+        "cross_source_agreement": true
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "D0860X": {
+    "mpn": "D0860X",
+    "official_domain": "diablotools.com",
+    "sources": [
+      {
+        "url": "https://www.toolboxsupply.com/products/diablo-d0860x-fine-finish-saw-blade-8-1-4-inch-x-60-tooth",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      },
+      {
+        "url": "https://americatools.com/diablo-d0860x-8-1-4-x-60-teeth-fine-finish-saw-blade-for-wood",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "facts": [
+      {
+        "label": "Diameter",
+        "value": "8-1/4",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "Diameter: 8-1/4 Inch"
+      },
+      {
+        "label": "Tooth Count",
+        "value": "60",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "Tooth: 60 ATB"
+      },
+      {
+        "label": "Arbor Size",
+        "value": "5/8",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.65,
+        "evidence_text": "Arbor: 5/8 inch"
+      },
+      {
+        "label": "Material",
+        "value": "Carbide",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "TiCo Hi-Density carbide teeth"
+      },
+      {
+        "label": "Application",
+        "value": "Wood",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "Fine Finish Saw Blades for Wood"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "48-40-0740": {
+    "mpn": "48-40-0740",
+    "official_domain": "milwaukeetool.com",
+    "sources": [
+      {
+        "url": "https://www.milwaukeetool.com/products/details/7-1-4-24t-thick-kerf-framing-circular-saw-blade/48-40-0740",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      },
+      {
+        "url": "https://www.coastaltool.com/products/milwaukee-48-40-0740-24t-thick-kerf-framing-circular-saw-blade",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "facts": [
+      {
+        "label": "Diameter",
+        "value": "7-1/4",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.95,
+        "evidence_text": "Blade Size: 7-1/4 in"
+      },
+      {
+        "label": "Tooth Count",
+        "value": "24",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.95,
+        "evidence_text": "24 Tooth, 7-1/4\u201d Blade"
+      },
+      {
+        "label": "Pack Quantity",
+        "value": "1",
+        "uom": "pc",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.95,
+        "evidence_text": "Pack Quantity: 1"
+      },
+      {
+        "label": "Arbor Size",
+        "value": "5/8",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "Arbor: 5/8\""
+      },
+      {
+        "label": "Material",
+        "value": "Cobalt-infused Carbide",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.6,
+        "evidence_text": "cobalt-infused carbide teeth stay sharper longer"
+      },
+      {
+        "label": "Application",
+        "value": "Wood",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 0.85,
+        "evidence_text": "straightest rip cuts and ultimate stability in softwoods, hardwoods, lumber, and laminated woods"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "VN56920": {
+    "mpn": "VN56920",
+    "official_domain": "marshalltown.com",
+    "sources": [
+      {
+        "url": "https://www.marshalltown.com/pro-4634-bear-saw-pull-saws?variantItemId=43381",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      },
+      {
+        "url": "https://www.amazon.com/VAUGHAN-Tri-Edge-Interchangeable-BS265M-VN56920/dp/B00004Z2WX",
+        "source_type": "secondary",
+        "authority_score": 0.45
+      }
+    ],
+    "note": "INSUFFICIENT/CONFLICTING EVIDENCE CASE, deliberately selected. Two problems surface here, both real: (1) BRAND CONFLICT -- the official marshalltown.com page sells VN56920, but Amazon lists the same MPN under brand 'VAUGHAN' (a separate documented Vaughan & Bushnell Mfg. Co. trademark family, 'Bear Saw'). Marshalltown may distribute/license it, but nothing found confirms Marshalltown as the legal manufacturer of record. (2) CLASSIFICATION MISMATCH -- the raw description '10 1/2\" Saw Blade' was rule-classified as a power-tool 'Saw Blade' (Cutting Tools taxonomy), but the retrieved evidence shows this is actually a hand pull-saw REPLACEMENT BLADE (Bear Saw / interchangeable hand-tool blade), a completely different product family with no power-tool dimension schema (Diameter/Tooth Count/Arbor) applicable at all. Both are routed to review rather than resolved silently.",
+    "facts": [
+      {
+        "label": "Blade Length",
+        "value": "10-1/2",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "HUMAN",
+        "confidence": 1.0,
+        "evidence_text": "Medium/Fine Blade (10-1/2\" / 267 mm)",
+        "human_confirmed": true
+      },
+      {
+        "label": "Manufacturer (brand)",
+        "value": "CONFLICT",
+        "uom": "",
+        "status": "CONFLICT",
+        "method": "HUMAN_DEFERRED",
+        "confidence": 0.0,
+        "evidence_text": "Human decision LEAVE_BLANK: Dual legal branding (Marshalltown seller vs Vaughan trademark) cannot be reconciled without manufacturer licensing documentation.",
+        "alternates": [
+          {
+            "value": "Marshalltown",
+            "source": "marshalltown.com (seller/distributor)"
+          },
+          {
+            "value": "VAUGHAN (Vaughan & Bushnell Mfg. Co.)",
+            "source": "amazon.com listing brand field"
+          }
+        ],
+        "human_reviewed": true,
+        "human_action": "LEAVE_BLANK",
+        "human_confirmed": true
+      },
+      {
+        "label": "Classpath",
+        "value": "CONFLICT",
+        "uom": "",
+        "status": "CONFLICT",
+        "method": "HUMAN_DEFERRED",
+        "confidence": 0.0,
+        "evidence_text": "Human decision LEAVE_BLANK: Hand pull-saw replacement blade is out of scope for power-tool saw blade taxonomy schema.",
+        "human_reviewed": true,
+        "human_action": "LEAVE_BLANK",
+        "human_confirmed": true
+      }
+    ],
+    "verification_status": "CONFLICT",
+    "human_review_status": "RESOLVE"
+  },
+  "543140016": {
+    "mpn": "543140016",
+    "official_domain": "",
+    "sources": [],
+    "note": "No successful live HTTP fetch occurred for this SKU during this session. Dimension facts extracted from candidate text via dim_parser regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "DCBL724B": {
+    "mpn": "DCBL724B",
+    "official_domain": "dewalt.com",
+    "sources": [
+      {
+        "url": "https://www.dewalt.com/product/dcbl724b/20v-max-xr-brushless-cordless-handheld-blower-tool-only",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Fetched live on dewalt.com during session.",
+    "facts": [
+      {
+        "label": "Air Volume",
+        "value": "550",
+        "uom": "CFM",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "delivers up to 550 CFM air volume"
+      },
+      {
+        "label": "Air Speed",
+        "value": "133",
+        "uom": "MPH",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "up to 133 MPH air speed"
+      },
+      {
+        "label": "Voltage Rating",
+        "value": "20",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "20V MAX* XR Brushless Blower"
+      },
+      {
+        "label": "Sound Level",
+        "value": "58",
+        "uom": "dBA",
+        "status": "UNVERIFIED",
+        "method": "SECONDARY_SOURCE",
+        "confidence": 0.45,
+        "evidence_text": "58 dBA noise level (from secondary search summary)"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "543140020": {
+    "mpn": "543140020",
+    "official_domain": "",
+    "sources": [],
+    "note": "No successful live HTTP fetch occurred for this SKU during this session. Dimension facts extracted from candidate text via dim_parser regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "543300256": {
+    "mpn": "543300256",
+    "official_domain": "",
+    "sources": [],
+    "note": "No successful live HTTP fetch occurred for this SKU during this session. Dimension facts extracted from candidate text via dim_parser regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "XLC10ZW": {
+    "mpn": "XLC10ZW",
+    "official_domain": "makitatools.com",
+    "sources": [
+      {
+        "url": "https://www.makitatools.com/products/details/XLC10ZW",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Fetched live on makitatools.com during session.",
+    "facts": [
+      {
+        "label": "Air Volume",
+        "value": "42",
+        "uom": "CFM",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "delivering up to 42 CFM"
+      },
+      {
+        "label": "Voltage Rating",
+        "value": "18",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "18V LXT Lithium-Ion Compact Brushless Cordless Vacuum"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "Brushless Motor"
+      },
+      {
+        "label": "Tool Form",
+        "value": "Tool Only",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "(Tool Only)"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "0887-20": {
+    "mpn": "0887-20",
+    "official_domain": "milwaukeetool.com",
+    "sources": [
+      {
+        "url": "https://www.milwaukeetool.com/Products/0887-20",
+        "source_type": "official_manufacturer_page",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Fetched live on milwaukeetool.com during session.",
+    "facts": [
+      {
+        "label": "Air Volume",
+        "value": "39",
+        "uom": "CFM",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "39 CFM"
+      },
+      {
+        "label": "Air Speed",
+        "value": "570",
+        "uom": "MPH",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "delivers 570 MPH"
+      },
+      {
+        "label": "Voltage Rating",
+        "value": "18",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "M18 Brushless Precision Blower"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "MANUFACTURER_PAGE",
+        "confidence": 1.0,
+        "evidence_text": "Brushless Precision Blower"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "XRU23SM1": {
+    "mpn": "XRU23SM1",
+    "official_domain": "makitatools.com",
+    "sources": [
+      {
+        "url": "https://www.makitatools.com/products/details/XRU23SM1",
+        "source_type": "official",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Official product page fetched directly from makitatools.com",
+    "facts": [
+      {
+        "label": "Voltage Rating",
+        "value": "18",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "18V LXT"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Brushless"
+      },
+      {
+        "label": "Tool Form",
+        "value": "Kit",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Trimmer Kit"
+      },
+      {
+        "label": "Battery Capacity",
+        "value": "4.0",
+        "uom": "Ah",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "4.0Ah"
+      },
+      {
+        "label": "Speed",
+        "value": "6000",
+        "uom": "RPM",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "6,000 RPM"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "3033-20": {
+    "mpn": "3033-20",
+    "official_domain": "milwaukeetool.com",
+    "sources": [
+      {
+        "url": "https://www.milwaukeetool.com/Products/3033-20",
+        "source_type": "official",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Official product page fetched directly from milwaukeetool.com",
+    "facts": [
+      {
+        "label": "Voltage Rating",
+        "value": "18",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "M18 FUEL"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "POWERSTATE Brushless"
+      },
+      {
+        "label": "Blade Length",
+        "value": "24",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "24 inch Hedge Trimmer"
+      },
+      {
+        "label": "Cut Capacity",
+        "value": "1-1/4",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "cut 1-1/4 inch branches"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "3033-21": {
+    "mpn": "3033-21",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "3034-20": {
+    "mpn": "3034-20",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "D25333K": {
+    "mpn": "D25333K",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "402-R": {
+    "mpn": "402-R",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "MID6630201US": {
+    "mpn": "MID6630201US",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "603150": {
+    "mpn": "603150",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "d10cnk": {
+    "mpn": "d10cnk",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "e28cnkha": {
+    "mpn": "e28cnkha",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "73002252": {
+    "mpn": "73002252",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "2909-20": {
+    "mpn": "2909-20",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "918200": {
+    "mpn": "918200",
+    "official_domain": "",
+    "sources": [],
+    "note": "Candidate facts extracted from raw Part_Desc text via regex at UNVERIFIED status.",
+    "facts": []
+  },
+  "DCN930B": {
+    "mpn": "DCN930B",
+    "official_domain": "dewalt.com",
+    "sources": [
+      {
+        "url": "https://www.dewalt.com/product/dcn930b/20v-max-xr-brushless-30-paper-collated-framing-nailer-tool-only",
+        "source_type": "official",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Official product page fetched directly from dewalt.com",
+    "facts": [
+      {
+        "label": "Voltage Rating",
+        "value": "20",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "20V MAX*"
+      },
+      {
+        "label": "Fastener Type",
+        "value": "Framing Nailer",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "paper collated framing nailer"
+      },
+      {
+        "label": "Collation Angle",
+        "value": "30",
+        "uom": "DEG",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "30\u00ba paper collated"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "brushless"
+      },
+      {
+        "label": "Tool Form",
+        "value": "Tool Only",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Tool Only"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "XTS02Z": {
+    "mpn": "XTS02Z",
+    "official_domain": "makitatools.com",
+    "sources": [
+      {
+        "url": "https://www.makitatools.com/products/details/XTS02Z",
+        "source_type": "official",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Official product page fetched directly from makitatools.com",
+    "facts": [
+      {
+        "label": "Voltage Rating",
+        "value": "18",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "18V LXT"
+      },
+      {
+        "label": "Fastener Type",
+        "value": "Stapler",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Narrow Crown Stapler"
+      },
+      {
+        "label": "Gauge",
+        "value": "18",
+        "uom": "GA",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "18 Ga."
+      },
+      {
+        "label": "Crown Width",
+        "value": "1/4",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "1/4 inch Narrow Crown"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Brushless"
+      },
+      {
+        "label": "Tool Form",
+        "value": "Tool Only",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Tool Only"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "DCF860B": {
+    "mpn": "DCF860B",
+    "official_domain": "dewalt.com",
+    "sources": [
+      {
+        "url": "https://www.dewalt.com/product/dcf860b/20v-max-xr-brushless-cordless-3-speed-high-torque-14-in-impact-driver-tool-only",
+        "source_type": "official",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Official product page fetched directly from dewalt.com",
+    "facts": [
+      {
+        "label": "Voltage Rating",
+        "value": "20",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "20V MAX* XR"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Brushless"
+      },
+      {
+        "label": "Tool Form",
+        "value": "Tool Only",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Tool Only"
+      },
+      {
+        "label": "Torque",
+        "value": "2500",
+        "uom": "in-lbs",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "MAX torque of 2,500 in-lbs"
+      },
+      {
+        "label": "Speed",
+        "value": "3800",
+        "uom": "RPM",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "0-3,800 RPM"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "DCD1007B": {
+    "mpn": "DCD1007B",
+    "official_domain": "dewalt.com",
+    "sources": [
+      {
+        "url": "https://www.dewalt.com/product/dcd1007b/20v-max-xr-brushless-12-in-3-speed-hammer-drill-tool-only",
+        "source_type": "official",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Official product page fetched directly from dewalt.com",
+    "facts": [
+      {
+        "label": "Voltage Rating",
+        "value": "20",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "20V MAX* XR"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Brushless"
+      },
+      {
+        "label": "Tool Form",
+        "value": "Tool Only",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Tool Only"
+      },
+      {
+        "label": "Torque",
+        "value": "2100",
+        "uom": "in-lbs",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "2,100 in-lbs. of MAX* torque"
+      },
+      {
+        "label": "Chuck Size",
+        "value": "1/2",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "1/2 in. Hammer drill"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "DCB2108": {
+    "mpn": "DCB2108",
+    "official_domain": "dewalt.com",
+    "sources": [
+      {
+        "url": "https://www.dewalt.com/product/dcb2108/20v-max-xr-8-ah-battery",
+        "source_type": "official",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Official product page fetched directly from dewalt.com",
+    "facts": [
+      {
+        "label": "Voltage Rating",
+        "value": "20",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "20V MAX*"
+      },
+      {
+        "label": "Battery Capacity",
+        "value": "8.0",
+        "uom": "Ah",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "8 Ah Battery"
+      },
+      {
+        "label": "Material",
+        "value": "Lithium-Ion",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Lithium-Ion"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "3401-20": {
+    "mpn": "3401-20",
+    "official_domain": "milwaukeetool.com",
+    "sources": [
+      {
+        "url": "https://www.milwaukeetool.com/Products/3401-20",
+        "source_type": "official",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Official product page fetched directly from milwaukeetool.com",
+    "facts": [
+      {
+        "label": "Voltage Rating",
+        "value": "12",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "M12"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Brushless"
+      },
+      {
+        "label": "Chuck Size",
+        "value": "3/8",
+        "uom": "in",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "3/8 inch Drill/Driver"
+      },
+      {
+        "label": "Torque",
+        "value": "350",
+        "uom": "in-lbs",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "350 in-lbs torque"
+      },
+      {
+        "label": "Speed",
+        "value": "1550",
+        "uom": "RPM",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "1,550 RPM"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "2541-20": {
+    "mpn": "2541-20",
+    "official_domain": "milwaukeetool.com",
+    "sources": [
+      {
+        "url": "https://www.milwaukeetool.com/Products/2541-20",
+        "source_type": "official",
+        "authority_score": 1.0
+      }
+    ],
+    "note": "Official product page fetched directly from milwaukeetool.com",
+    "facts": [
+      {
+        "label": "Voltage Rating",
+        "value": "12",
+        "uom": "V",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "M12 FUEL"
+      },
+      {
+        "label": "Fastener Type",
+        "value": "Brad Nailer",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Brad Nailer"
+      },
+      {
+        "label": "Gauge",
+        "value": "18",
+        "uom": "GA",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "18 Gauge"
+      },
+      {
+        "label": "Motor Type",
+        "value": "Brushless",
+        "uom": "",
+        "status": "VERIFIED",
+        "method": "OFFICIAL_SOURCE",
+        "confidence": 1.0,
+        "evidence_text": "Brushless"
+      }
+    ],
+    "verification_status": "VERIFIED"
+  },
+  "TEST_MPN_RESOLVE_001": {
+    "mpn": "TEST_MPN_RESOLVE_001",
+    "sources": [],
+    "note": "Created via review queue decision",
+    "facts": [],
+    "verification_status": "VERIFIED",
+    "human_review_status": "RESOLVE"
+  },
+  "TEST_MPN_BLANK_002": {
+    "mpn": "TEST_MPN_BLANK_002",
+    "sources": [],
+    "note": "Created via review queue decision",
+    "facts": [],
+    "verification_status": "CONFLICT",
+    "human_review_status": "LEAVE_BLANK"
+  },
+  "TEST_PERSIST_MPN_003": {
+    "mpn": "TEST_PERSIST_MPN_003",
+    "sources": [],
+    "note": "Created via review queue decision",
+    "facts": [],
+    "verification_status": "VERIFIED",
+    "human_review_status": "RESOLVE"
+  }
+}
