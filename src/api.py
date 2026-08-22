@@ -421,10 +421,23 @@ def export_file(export_type: str):
         raise HTTPException(status_code=400, detail=f"Export type '{export_type}' not supported.")
 
 
-# Serve static web app frontend files if present in static/
+# Serve static web app frontend files and SPA routing
 STATIC_DIR = os.path.join(UNILOG_DIR, "static")
-if os.path.exists(STATIC_DIR):
-    app.mount("/", StaticFiles(directory=STATIC_DIR, html=True), name="static")
+ASSETS_DIR = os.path.join(STATIC_DIR, "assets")
+
+if os.path.exists(ASSETS_DIR):
+    app.mount("/assets", StaticFiles(directory=ASSETS_DIR), name="assets")
+
+
+@app.get("/{full_path:path}")
+def serve_spa(full_path: str):
+    if full_path.startswith("api/"):
+        raise HTTPException(status_code=404, detail="API endpoint not found")
+    index_file = os.path.join(STATIC_DIR, "index.html")
+    if os.path.exists(index_file):
+        return FileResponse(index_file)
+    raise HTTPException(status_code=404, detail="Static frontend not found")
+
 
 if __name__ == "__main__":
     import uvicorn
