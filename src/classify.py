@@ -35,7 +35,7 @@ RULES = [
     # --- TOOLS & EQUIPMENT > HAND TOOLS ---
     (r"\b(file bstd|mill file|half round|flat file|taper file|rasp|files & rasps|file)\b", "Tools & Equipment", "Hand Tools", "Files & Rasps",
      "Tools & Equipment>Hand Tools>Files & Rasps"),
-    (r"\b(wrench|pliers|hammer|socket|ratchet|utility knife|clamp|tape measure|hand tool|level|kneeling pad|bottle opener|inflator gauge|tire pressure|chalk & reel|organizer)\b", "Tools & Equipment", "Hand Tools", "Hand Tools",
+    (r"\b(wrench|pliers|hammer|socket|ratchet|utility knife|clamp|tape measure|hand tool|level|kneeling pad|bottle opener|inflator gauge|tire pressure|chalk & reel|organizer|tool chest)\b", "Tools & Equipment", "Hand Tools", "Hand Tools",
      "Tools & Equipment>Hand Tools>Hand Tools"),
 
     # --- TOOLS & EQUIPMENT > SAFETY & WORKWEAR ---
@@ -91,7 +91,7 @@ RULES = [
      "Lighting & Ceiling Fans>Ceiling Lights>Flush Mount & Recessed Lights"),
     (r"\b(led bulb|incandescent|halogen|par30|par38|br30|mr16|candelabra|a19|light bulb|bulb|incan|led t9|edison st19|40w inc|8w led|12w led)\b", "Lighting & Ceiling Fans", "Light Bulbs", "Light Bulbs",
      "Lighting & Ceiling Fans>Light Bulbs>Light Bulbs"),
-    (r"\b(kichler|lighting fixture|light fixture|downrod|landscape light|led lt|strip light|ceiling lt|ceiling light|flash light|flashlight|flashlt|headlight|work light|clip light|twin head)\b", "Lighting & Ceiling Fans", "Light Fixtures", "Lighting Fixtures",
+    (r"\b(kichler|lighting fixture|light fixture|downrod|landscape light|led lt|strip light|ceiling lt|ceiling light|flash light|flashlight|flashlt|headlight|work light|clip light|twin head|light - rechargeable|rechargeable)\b", "Lighting & Ceiling Fans", "Light Fixtures", "Lighting Fixtures",
      "Lighting & Ceiling Fans>Light Fixtures>Lighting Fixtures"),
 
     # --- MAJOR APPLIANCES ---
@@ -123,7 +123,7 @@ RULES = [
     # --- ELECTRICAL & PLUMBING ---
     (r"\b(elect tape|electrical tape|vinyl tape|sealing tape|emseal tape|tape)\b", "Electrical", "Electrical Accessories", "Tapes & Adhesives",
      "Electrical>Electrical Accessories>Tapes & Adhesives"),
-    (r"\b(outlet|receptacle|switch|wall plate|junction box|switch box|outlet box|wire nut|cable tie|box cover|oct box|square box|2g box|1g box|decor plate|dimmer|lutron|hanger|box w/hanger|box w/bracket|timer|indoor timer|outdoor timer|load center|load cntr|entrance cable|so cord|cat5e wire|stranded wire|wire|cable|cord|triplex|cord grip|wall tap|gfci|outler|cord conn)\b", "Electrical", "Wiring & Boxes", "Electrical Wiring & Boxes",
+    (r"\b(outlet|receptacle|switch|wall plate|junction box|switch box|outlet box|wire nut|cable tie|box cover|oct box|square box|2g box|1g box|decor plate|dimmer|lutron|hanger|box w/hanger|box w/bracket|timer|indoor timer|outdoor timer|load center|load cntr|entrance cable|so cord|cat5e wire|stranded wire|wire|cable|cord|triplex|cord grip|wall tap|gfci|outler|cord conn|welder outet|outet|cover wh|1g cover|wallplate)\b", "Electrical", "Wiring & Boxes", "Electrical Wiring & Boxes",
      "Electrical>Wiring & Boxes>Electrical Wiring & Boxes"),
     (r"\b(faucet|shower head|sink|toilet|pipe|fitting|valve)\b", "Plumbing", "Plumbing Fixtures", "Plumbing Fixtures & Fittings",
      "Plumbing>Plumbing Fixtures>Plumbing Fixtures & Fittings"),
