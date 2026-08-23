@@ -172,10 +172,10 @@ export const OverviewDashboard: React.FC<OverviewDashboardProps> = ({ data, onNa
         <div className="glass-card rounded-xl p-6 lg:col-span-2 space-y-4">
           <div className="flex items-center justify-between border-b border-slate-800 pb-3">
             <div>
-              <h3 className="text-sm font-bold text-white">Classified Category Breakdown (21 Fine Categories)</h3>
+              <h3 className="text-sm font-bold text-white">Classified Category Breakdown</h3>
               <p className="text-xs text-slate-400">Distribution of assigned products across core industrial taxonomy schemas</p>
             </div>
-            <span className="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-md font-mono">366 Items</span>
+            <span className="text-xs bg-slate-800 text-slate-300 px-2.5 py-1 rounded-md font-mono">{data.classified_count} Items</span>
           </div>
           <div className="h-64 relative">
             <Bar
@@ -215,14 +215,14 @@ export const OverviewDashboard: React.FC<OverviewDashboardProps> = ({ data, onNa
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
                 <span>Tier 1 Directly Verified:</span>
               </span>
-              <span className="font-bold font-mono">{data.tier1_verified_count} ({data.compliance.schema_contract_status ? '6.6%' : ''})</span>
+              <span className="font-bold font-mono">{data.tier1_verified_count}</span>
             </div>
             <div className="flex justify-between text-slate-300">
               <span className="flex items-center space-x-2">
                 <span className="w-2.5 h-2.5 rounded-full bg-indigo-400"></span>
                 <span>Tier 3 Candidate Only:</span>
               </span>
-              <span className="font-bold font-mono">{data.tier3_candidate_count} (93.4%)</span>
+              <span className="font-bold font-mono">{data.tier3_candidate_count}</span>
             </div>
             <div className="flex justify-between text-slate-300">
               <span className="flex items-center space-x-2">
