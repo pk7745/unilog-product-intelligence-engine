@@ -14,9 +14,18 @@ env/
 venv/
 ENV/
 
-# Node / Frontend
+# Node / Frontend / Vite
 frontend/node_modules/
 frontend/dist/
+.vite/
+
+# Development / Scratch / IDE artifacts
+scratch/
+.idea/
+.vscode/
+*.tmp
+*.bak
+*.swp
 
 # OS artifacts
 .DS_Store
