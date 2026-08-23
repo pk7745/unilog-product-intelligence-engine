@@ -154,7 +154,7 @@ def get_overview():
 @app.get("/api/products")
 def get_products(
     page: int = Query(1, ge=1),
-    limit: int = Query(20, ge=1, le=100),
+    limit: int = Query(20, ge=1, le=1000),
     search: str = "",
     category: str = "",
     confidence_band: str = "",
