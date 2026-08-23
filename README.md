@@ -2,7 +2,7 @@
 
 The **Unilog Pipeline** (`unilog`) converts raw industrial supplier product records into standardized, normalized, search-ready product intelligence formatted strictly to a **252-column delivery schema contract**.
 
----
+--- 
 
 ## 1. Key Features & Architectural Guarantees
 
