@@ -31,6 +31,12 @@ export async function fetchProducts(params: {
   return res.json();
 }
 
+export async function fetchProductMpns(): Promise<Array<{ mpn: string; raw_desc: string }>> {
+  const res = await fetch(`${API_BASE}/products/mpns`);
+  if (!res.ok) return [];
+  return res.json();
+}
+
 export async function fetchProductDetail(mpn: string): Promise<ProductDetail> {
   const res = await fetch(`${API_BASE}/products/${encodeURIComponent(mpn)}`);
   if (!res.ok) throw new Error(`Failed to fetch detail for MPN ${mpn}`);

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { FileText, Sparkles, AlertCircle, Loader2 } from 'lucide-react';
-import { fetchProducts, fetchProductDetail } from '../services/api';
-import { ProductDetail, ProductSummary } from '../types';
+import { fetchProductMpns, fetchProductDetail } from '../services/api';
+import { ProductDetail } from '../types';
 
 export const BeforeAfterComparison: React.FC = () => {
   const [selectedMpn, setSelectedMpn] = useState('DCB518ASTS06G');
-  const [allProducts, setAllProducts] = useState<ProductSummary[]>([]);
+  const [allProducts, setAllProducts] = useState<Array<{ mpn: string; raw_desc: string }>>([]);
   const [detail, setDetail] = useState<ProductDetail | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -17,9 +17,9 @@ export const BeforeAfterComparison: React.FC = () => {
   useEffect(() => {
     async function loadAllProducts() {
       try {
-        const res = await fetchProducts({ limit: 1000 });
-        if (res && res.products) {
-          setAllProducts(res.products);
+        const mpns = await fetchProductMpns();
+        if (mpns && mpns.length > 0) {
+          setAllProducts(mpns);
         }
       } catch (err) {
         console.error('Failed to load benchmark products list:', err);

@@ -53,29 +53,46 @@ CACHE_PATH = os.path.join(UNILOG_DIR, "cache", "evidence_cache.json")
 DECISIONS_PATH = os.path.join(UNILOG_DIR, "review", "review_decisions.json")
 
 
+_FILE_CACHE: Dict[str, Any] = {}
+
+
 def _read_csv(path: str) -> List[Dict[str, str]]:
     if not os.path.exists(path):
         return []
+    mtime = os.path.getmtime(path)
+    if path in _FILE_CACHE and _FILE_CACHE[path][0] == mtime:
+        return _FILE_CACHE[path][1]
     with open(path, encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        res = list(csv.DictReader(f))
+    _FILE_CACHE[path] = (mtime, res)
+    return res
 
 
 def _read_jsonl(path: str) -> List[Dict[str, Any]]:
     if not os.path.exists(path):
         return []
+    mtime = os.path.getmtime(path)
+    if path in _FILE_CACHE and _FILE_CACHE[path][0] == mtime:
+        return _FILE_CACHE[path][1]
     res = []
     with open(path, encoding="utf-8") as f:
         for line in f:
             if line.strip():
                 res.append(json.loads(line))
+    _FILE_CACHE[path] = (mtime, res)
     return res
 
 
 def _read_json(path: str) -> Dict[str, Any]:
     if not os.path.exists(path):
         return {}
+    mtime = os.path.getmtime(path)
+    if path in _FILE_CACHE and _FILE_CACHE[path][0] == mtime:
+        return _FILE_CACHE[path][1]
     with open(path, encoding="utf-8") as f:
-        return json.load(f)
+        res = json.load(f)
+    _FILE_CACHE[path] = (mtime, res)
+    return res
 
 
 @app.get("/api/overview")
@@ -237,6 +254,12 @@ def get_products(
         "total_pages": (total_matched + limit - 1) // limit if total_matched else 0,
         "products": paged_rows,
     }
+
+
+@app.get("/api/products/mpns")
+def get_product_mpns():
+    input_rows = _read_csv(INPUT_PATH)
+    return [{"mpn": r.get("Mfg_Part_Num", ""), "raw_desc": r.get("Part_Desc", "")} for r in input_rows]
 
 
 @app.get("/api/products/{mpn}")
